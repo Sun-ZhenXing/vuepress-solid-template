@@ -5,6 +5,7 @@ specifiers:
   '@vuepress/plugin-search': 2.0.0-beta.53
   vue: ^3.2.45
   vuepress: 2.0.0-beta.53
+  vuepress-plugin-copy-code2: 2.0.0-beta.122
   vuepress-plugin-md-enhance: 2.0.0-beta.122
 
 devDependencies:
@@ -12,6 +13,7 @@ devDependencies:
   '@vuepress/plugin-search': registry.npmmirror.com/@vuepress/plugin-search/2.0.0-beta.53
   vue: registry.npmmirror.com/vue/3.2.45
   vuepress: registry.npmmirror.com/vuepress/2.0.0-beta.53_54nmke4n2vj3tdp5cd33kvtiom
+  vuepress-plugin-copy-code2: registry.npmmirror.com/vuepress-plugin-copy-code2/2.0.0-beta.122
   vuepress-plugin-md-enhance: registry.npmmirror.com/vuepress-plugin-md-enhance/2.0.0-beta.122
 
 packages:
@@ -3641,6 +3643,27 @@ packages:
       '@vue/runtime-dom': registry.npmmirror.com/@vue/runtime-dom/3.2.45
       '@vue/server-renderer': registry.npmmirror.com/@vue/server-renderer/3.2.45_vue@3.2.45
       '@vue/shared': registry.npmmirror.com/@vue/shared/3.2.45
+    dev: true
+
+  registry.npmmirror.com/vuepress-plugin-copy-code2/2.0.0-beta.122:
+    resolution: {integrity: sha512-az6ImlwaDiEUm+aGeu2W+Gm96fT0AYV+moM8Au4SjjsJSPBJXLpvCFgVMpeEOpynwYfyh3cR6N27yxJb04ev9g==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/vuepress-plugin-copy-code2/-/vuepress-plugin-copy-code2-2.0.0-beta.122.tgz}
+    name: vuepress-plugin-copy-code2
+    version: 2.0.0-beta.122
+    peerDependencies:
+      sass-loader: ^13.0.0
+    peerDependenciesMeta:
+      sass-loader:
+        optional: true
+    dependencies:
+      '@vuepress/client': registry.npmmirror.com/@vuepress/client/2.0.0-beta.53
+      '@vuepress/utils': registry.npmmirror.com/@vuepress/utils/2.0.0-beta.53
+      balloon-css: registry.npmmirror.com/balloon-css/1.2.0
+      vue: registry.npmmirror.com/vue/3.2.45
+      vue-router: registry.npmmirror.com/vue-router/4.1.6_vue@3.2.45
+      vuepress-plugin-sass-palette: registry.npmmirror.com/vuepress-plugin-sass-palette/2.0.0-beta.122
+      vuepress-shared: registry.npmmirror.com/vuepress-shared/2.0.0-beta.122
+    transitivePeerDependencies:
+      - supports-color
     dev: true
 
   registry.npmmirror.com/vuepress-plugin-md-enhance/2.0.0-beta.122:

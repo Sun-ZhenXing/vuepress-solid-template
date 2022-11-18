@@ -35,3 +35,12 @@ All of VuePress2 is ready!
 Solid is not Solid.js!
 
 :::
+
+```cpp
+#include <iostream>
+
+int main(int argc, char** argv) {
+    std::cout << "Hello World!" << std::endl;
+    return 0;
+}
+```

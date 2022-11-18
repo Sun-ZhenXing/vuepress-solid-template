@@ -1,6 +1,7 @@
 import { defineUserConfig, defaultTheme } from 'vuepress'
 import { mdEnhancePlugin } from 'vuepress-plugin-md-enhance'
 import { searchPlugin } from '@vuepress/plugin-search'
+import { copyCodePlugin } from 'vuepress-plugin-copy-code2'
 
 const USER_NAME = 'Sun-ZhenXing'
 const BASE_PATH = '/vuepress-solid-template/'
@@ -59,6 +60,9 @@ export default defineUserConfig({
       mermaid: true,
       delay: 200,
     }),
-    searchPlugin({})
+    searchPlugin({}),
+    copyCodePlugin({
+      showInMobile: true,
+    }),
   ]
 })
