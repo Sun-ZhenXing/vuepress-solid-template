@@ -11,11 +11,19 @@ cd vuepress-solid-template
 
 pnpm i
 
-pnpm run docs:dev
+pnpm dev
 ```
 
 The only thing you need to do is to configure `docs/.vuepress/config.ts`：
 1. change `USER_NAME` to yours.
 2. change `BASE_PATH` to your repo name.
 
-If you push it as a github repo, if will create github pages automatically. If you don't want it, reomve workflows file.
+### GitHub Pages
+
+If you need to open GitHub Pages:
+1. Open GitHub repo page
+2. click `setting`
+3. click `Pages`, goto `Build and deployment`
+4. save your config as `Branch: gh-pages /(root)`
+
+It will create **GitHub Pages** automatically. If you don't want it, reomve workflows file.

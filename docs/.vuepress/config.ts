@@ -14,6 +14,11 @@ export default defineUserConfig({
     ['link', { rel: 'icon', href: `${BASE_PATH}favicon.svg` }]
   ],
   base: BASE_PATH,
+  markdown: {
+    code: {
+      lineNumbers: 10
+    }
+  },
   theme: defaultTheme({
     logo: '/favicon.svg',
     repo: `${USER_NAME}${BASE_PATH}`,
