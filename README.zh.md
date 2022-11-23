@@ -7,9 +7,9 @@
 最佳 Vuepress 模板，[Demo 页面](https://blog.alexsun.top/vuepress-solid-template/) 。
 
 ```bash
-git clone https://github.com/Sun-ZhenXing/vuepress-solid-template.git
+git clone --single-branch https://github.com/Sun-ZhenXing/vuepress-solid-template.git vuepress-my-docs
 
-cd vuepress-solid-template
+cd vuepress-my-docs
 
 pnpm i
 
@@ -19,7 +19,7 @@ pnpm dev
 你唯一要做的是 `docs/.vuepress/config.ts`：
 1. 将 `USER_NAME` 修改为你的用户名
 2. 将 `BASE_PATH` 修改为你的仓库路径
-3. （可选）将 `README.md` 和 `package.json: "name"` 改为你需要的
+3. （可选）将 `README.md` 和 `package.json` 的 `"name"` 属性改为你需要的
 
 ### GitHub Pages
 

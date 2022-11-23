@@ -9,9 +9,9 @@
 Best Vuepress Template. [Demo Page](https://blog.alexsun.top/vuepress-solid-template/).
 
 ```bash
-git clone --single-branch https://github.com/Sun-ZhenXing/vuepress-solid-template.git
+git clone --single-branch https://github.com/Sun-ZhenXing/vuepress-solid-template.git vuepress-my-docs
 
-cd vuepress-solid-template
+cd vuepress-my-docs
 
 pnpm i
 
