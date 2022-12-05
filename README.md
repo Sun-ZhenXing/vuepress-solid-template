@@ -23,12 +23,12 @@ The only thing you need to do is to configure `docs/.vuepress/config.ts`：
 2. change `BASE_PATH` to your repo name.
 3. (optional) change `README.md` and `package.json: "name"`
 
-### GitHub Pages
+## How to config GitHub Pages?
 
 If you need to open GitHub Pages:
-1. Open GitHub repo page
-2. click `setting`
+1. Open your GitHub repo page
+2. click `Settings`
 3. click `Pages`, goto `Build and deployment`
-4. save your config as `Branch: gh-pages /(root)`
+4. config as `Branch: gh-pages /(root)`, or force HTTPS, save
 
 It will create **GitHub Pages** automatically. If you don't want it, reomve `.github/workflows/` file.

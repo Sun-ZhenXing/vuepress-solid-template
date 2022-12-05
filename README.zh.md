@@ -21,12 +21,12 @@ pnpm dev
 2. 将 `BASE_PATH` 修改为你的仓库路径
 3. （可选）将 `README.md` 和 `package.json` 的 `"name"` 属性改为你需要的
 
-### GitHub Pages
+## 如何设置 GitHub Pages？
 
-如果你想打开 GitHub Pages:
-1. 打开项目页面
-2. 点击 `setting`
+如果你想打开 GitHub Pages：
+1. GitHub 打开你的项目主页页面
+2. 点击 `Settings`
 3. 点击 `Pages`，然后到 `Build and deployment` 下面
-4. 保存设置 `Branch: gh-pages /(root)`
+4. 设置 `Branch: gh-pages /(root)`，可选的 HTTPS，保存
 
 这将自动创建 **GitHub Pages**，如果你不需要，可以删除 `.github/workflows/` 下的文件。
