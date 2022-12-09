@@ -22,6 +22,7 @@ export default defineUserConfig({
   theme: defaultTheme({
     logo: '/favicon.svg',
     repo: `${USER_NAME}${BASE_PATH}`,
+    docsDir: 'docs',
     navbar: [
       {
         text: 'Demo for Vuepress Solid',
