@@ -4,10 +4,21 @@
 
 > **Solid** 不是 **Solid.js**！
 
-最佳 Vuepress 模板，[Demo 页面](https://blog.alexsun.top/vuepress-solid-template/) 。
+最佳 Vuepress 模板，[Demo 页面](https://blog.alexsun.top/vuepress-solid-template/)。
+
+特征：
+- 🎉 VuePress2 (Vue3 + Vite4 + TS)
+- ✨ [`vuepress-plugin-md-enhance`](https://vuepress-theme-hope.github.io/v2/md-enhance/)
+    - 📖 支持 LaTeX 数学公式，使用 [KaTeX](https://katex.org/)
+    - 📈 [Mermaid](https://mermaid-js.github.io/mermaid/#/) 支持
+    - 📊 [Echarts](https://echarts.apache.org/) 支持
+- 📋 支持复制代码
+- 🔍 静态搜索
+
+## 开始
 
 ```bash
-git clone --single-branch https://github.com/Sun-ZhenXing/vuepress-solid-template.git vuepress-my-docs
+git clone --single-branch https://github.com/Sun-ZhenXing/vuepress-solid-template.git vuepress-my-docs --depth=1
 
 cd vuepress-my-docs
 

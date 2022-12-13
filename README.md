@@ -8,8 +8,19 @@
 
 Best Vuepress Template. [Demo Page](https://blog.alexsun.top/vuepress-solid-template/).
 
+Features:
+- 🎉 VuePress2 (Vue3 + Vite4 + TS)
+- ✨ [`vuepress-plugin-md-enhance`](https://vuepress-theme-hope.github.io/v2/md-enhance/)
+    - 📖 Support LaTeX math formulas using [KaTeX](https://katex.org/)
+    - 📈 [Mermaid](https://mermaid-js.github.io/mermaid/#/) support
+    - 📊 [Echarts](https://echarts.apache.org/) support
+- 📋 Copy code support
+- 🔍 static search support
+
+## Start
+
 ```bash
-git clone --single-branch https://github.com/Sun-ZhenXing/vuepress-solid-template.git vuepress-my-docs
+git clone --single-branch https://github.com/Sun-ZhenXing/vuepress-solid-template.git vuepress-my-docs --depth=1
 
 cd vuepress-my-docs
 
