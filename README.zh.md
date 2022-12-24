@@ -1,6 +1,6 @@
 # Vuepress Solid Template
 
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/Sun-ZhenXing/vuepress-solid-template/Deploy%20Docs)
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/Sun-ZhenXing/vuepress-solid-template/deploy-docs.yml?branch=main)
 
 > **Solid** 不是 **Solid.js**！
 
