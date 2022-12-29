@@ -60,15 +60,27 @@ export default defineUserConfig({
       sup: true,
       footnote: true,
       mark: true,
-      imageLazyload: true,
+      imgLazyload: true,
       tasklist: true,
       katex: true,
       mermaid: true,
       delay: 200,
+      stylize: [
+        {
+          matcher: '@recommend',
+          replacer: ({ tag }) => {
+            if (tag === 'em') return {
+              tag: 'Badge',
+              attrs: { type: 'tip', vertical: 'middle' },
+              content: 'Recommend'
+            }
+          }
+        }
+      ]
     }),
     searchProPlugin({}),
     copyCodePlugin({
-      showInMobile: true,
-    }),
+      showInMobile: true
+    })
   ]
 })

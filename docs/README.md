@@ -24,11 +24,9 @@ $$
 \LaTeX
 $$
 
-::: info Welcome!
+*@recommend* All of VuePress2 is ready![^1]
 
-All of VuePress2 is ready!
-
-:::
+[^1]: footnote!
 
 ::: warning
 
@@ -36,11 +34,28 @@ Solid is not Solid.js!
 
 :::
 
+```mermaid
+flowchart TB
+  c1-->a2
+  subgraph one
+  a1-->a2
+  end
+  subgraph two
+  b1-->b2
+  end
+  subgraph three
+  c1-->c2
+  end
+  one --> two
+  three --> two
+  two --> c2
+```
+
 ```cpp
 #include <iostream>
 
 int main(int argc, char** argv) {
-    std::cout << "Hello World!" << std::endl;
-    return 0;
+  std::cout << "Hello World!" << std::endl;
+  return 0;
 }
 ```
