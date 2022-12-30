@@ -1,0 +1,4 @@
+import{_ as n,p as a,q as e,a1 as s}from"./framework-35149b8f.js";const t={},o=s(`<h1 id="demo-for-page-01" tabindex="-1"><a class="header-anchor" href="#demo-for-page-01" aria-hidden="true">#</a> Demo for page-01</h1><div class="hint-container info"><p class="hint-container-title">Info</p><p>Get the version of PyTorch:</p><div class="language-python" data-ext="py"><pre class="language-python"><code><span class="token keyword">import</span> torch
+
+<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">&#39;PyTorch:&#39;</span><span class="token punctuation">,</span> torch<span class="token punctuation">.</span>__version__<span class="token punctuation">)</span>
+</code></pre></div></div>`,2),c=[o];function p(r,i){return a(),e("div",null,c)}const d=n(t,[["render",p],["__file","page01.html.vue"]]);export{d as default};
