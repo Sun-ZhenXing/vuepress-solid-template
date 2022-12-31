@@ -5,7 +5,7 @@
   }
 }
 
-// Optimize print style
+// optimize: print style
 @media print {
   :root {
     --c-text: #000;
@@ -21,5 +21,20 @@
 
   details[open].hint-container.details {
     display: block !important;
+  }
+
+  .katex-display>.katex {
+    white-space: pre-wrap !important;
+  }
+}
+
+// fix: copy katex code when selected
+.katex {
+  * {
+    user-select: none;
+  }
+
+  annotation {
+    user-select: all;
   }
 }
