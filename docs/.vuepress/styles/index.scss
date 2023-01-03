@@ -11,6 +11,11 @@
   }
 }
 
+// optimize: code
+code {
+  padding: 0.25rem 0.15rem;
+}
+
 // optimize: print style
 @media print {
   :root {
@@ -25,10 +30,12 @@
     display: none;
   }
 
+  // fix: details will hide when print
   details[open].hint-container.details {
     display: block !important;
   }
 
+  // fix: katex will hide when overflow
   .katex-display>.katex {
     white-space: pre-wrap !important;
   }
