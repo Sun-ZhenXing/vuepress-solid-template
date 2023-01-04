@@ -2,6 +2,7 @@ import { defineUserConfig, defaultTheme } from 'vuepress'
 import { mdEnhancePlugin } from 'vuepress-plugin-md-enhance'
 import { copyCodePlugin } from 'vuepress-plugin-copy-code2'
 import { searchProPlugin } from 'vuepress-plugin-search-pro'
+import { autoCatalogPlugin } from 'vuepress-plugin-auto-catalog'
 
 const USER_NAME = 'Sun-ZhenXing'
 const BASE_PATH = '/vuepress-solid-template/'
@@ -79,6 +80,7 @@ export default defineUserConfig({
       ]
     }),
     searchProPlugin({}),
+    autoCatalogPlugin({}),
     copyCodePlugin({
       showInMobile: true
     })

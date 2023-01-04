@@ -18,21 +18,31 @@ features:
 footer: Create from VuePress community!
 ---
 
+<AutoCatalog />
+
 # Hello VuePress
 
+## LaTeX
+
 $$
-\LaTeX
+\LaTeX \oiiint_\Sigma
 $$
+
+## Badge & Footnote
 
 *@recommend* All of VuePress2 is ready![^1]
 
 [^1]: footnote!
+
+## Container
 
 ::: warning
 
 Solid is not Solid.js!
 
 :::
+
+## Mermaid
 
 ```mermaid
 flowchart TB
@@ -50,6 +60,8 @@ flowchart TB
   three --> two
   two --> c2
 ```
+
+## Copy Code
 
 ```cpp
 #include <iostream>
