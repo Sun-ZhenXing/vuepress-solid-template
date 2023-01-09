@@ -30,6 +30,11 @@ code {
     display: none;
   }
 
+  // fix: code block will hide when print
+  pre[class*=language-] {
+    white-space: pre-wrap;
+  }
+
   // fix: details will hide when print
   details[open].hint-container.details {
     display: block !important;
