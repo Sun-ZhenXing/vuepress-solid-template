@@ -3,7 +3,7 @@ home: true
 heroImage: /favicon.svg
 actions:
   - text: Get Start
-    link: /demo/
+    link: '#hello-vuepress'
     type: primary
   - text: Configure
     link: https://v2.vuepress.vuejs.org/guide/
@@ -18,56 +18,6 @@ features:
 footer: Create from VuePress community!
 ---
 
-<AutoCatalog />
-
 # Hello VuePress
 
-## LaTeX
-
-$$
-\LaTeX \oiiint_\Sigma
-$$
-
-## Badge & Footnote
-
-*@recommend* All of VuePress2 is ready![^1]
-
-[^1]: footnote!
-
-## Container
-
-::: warning
-
-Solid is not Solid.js!
-
-:::
-
-## Mermaid
-
-```mermaid
-flowchart TB
-  c1-->a2
-  subgraph one
-  a1-->a2
-  end
-  subgraph two
-  b1-->b2
-  end
-  subgraph three
-  c1-->c2
-  end
-  one --> two
-  three --> two
-  two --> c2
-```
-
-## Copy Code
-
-```cpp
-#include <iostream>
-
-int main(int argc, char** argv) {
-  std::cout << "Hello World!" << std::endl;
-  return 0;
-}
-```
+<AutoCatalog />

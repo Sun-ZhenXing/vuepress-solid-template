@@ -26,13 +26,27 @@ code {
     padding: 0;
   }
 
-  header {
+  header,
+  nav.page-nav,
+  .line-numbers-mode>.line-numbers {
     display: none;
   }
 
   // fix: code block will hide when print
-  pre[class*=language-] {
-    white-space: pre-wrap;
+  div[class*=language-] {
+    &.line-numbers-mode {
+      &::after {
+        display: none !important;
+      }
+
+      >pre {
+        margin: 0 !important;
+      }
+    }
+
+    >pre {
+      white-space: pre-wrap;
+    }
   }
 
   // fix: details will hide when print
