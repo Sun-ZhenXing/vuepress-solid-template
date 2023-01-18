@@ -36,6 +36,10 @@ npm i -D vuepress-plugin-md-enhance@next
 
 ::: info
 
+```bash
+pip3 install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu116
+```
+
 Get the version of PyTorch:
 
 ```python
@@ -53,6 +57,16 @@ if torch.cuda.is_available():
 else:
     device = torch.device('cpu')
     logging.warn('CUDA is not available, using CPU instead! Check your CUDA installation!')
+```
+
+:::
+
+::: details
+
+Install Pnpm:
+
+```bash
+npm i -g pnpm
 ```
 
 :::
