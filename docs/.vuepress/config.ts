@@ -72,13 +72,13 @@ export default defineUserConfig({
           replacer: ({ tag }) => {
             if (tag === 'em') return {
               tag: 'Badge',
-              attrs: { type: 'tip', vertical: 'middle' },
+              attrs: { type: 'tip' },
               content: 'Recommend'
             }
           }
         }
       ]
-    }),
+    }, false),
     searchProPlugin({}),
     autoCatalogPlugin({}),
     copyCodePlugin({
