@@ -4,11 +4,11 @@
 
 > **Solid** 不是 **Solid.js**！
 
-最佳 Vuepress 模板，[Demo 页面](https://blog.alexsun.top/vuepress-solid-template/)。
+最佳 Vuepress 模板，在几分钟之内获得一个精美的、已经配置好的默认主题文档。[Demo 页面](https://blog.alexsun.top/vuepress-solid-template/)。
 
 特征：
 - 🎉 VuePress2 (Vue3 + Vite4 + TS)
-- ✨ [`vuepress-plugin-md-enhance`](https://vuepress-theme-hope.github.io/v2/md-enhance/)
+- ✨ [VuePress MarkDown Enhance](https://vuepress-theme-hope.github.io/v2/md-enhance/)
     - 📖 支持 LaTeX 数学公式，使用 [KaTeX](https://katex.org/)
     - 📈 [Mermaid](https://mermaid-js.github.io/mermaid/#/) 支持
     - 📊 [Echarts](https://echarts.apache.org/) 支持
@@ -41,7 +41,7 @@ git add .
 git commit -m "init from Sun-ZhenXing/vuepress-solid-template"
 git remote add origin ${YOUR_REPO}
 git branch -M main
-git push -u origin master
+git push -u origin main
 ```
 
 ## 如何设置 GitHub Pages？

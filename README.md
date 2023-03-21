@@ -6,11 +6,11 @@
 
 > **Solid** is not **Solid.js**
 
-Best Vuepress Template. [Demo Page](https://blog.alexsun.top/vuepress-solid-template/).
+Best Vuepress Template. Get a beautiful and configured default theme document in minutes. [Demo Page](https://blog.alexsun.top/vuepress-solid-template/).
 
 Features:
 - 🎉 VuePress2 (Vue3 + Vite4 + TS)
-- ✨ [`vuepress-plugin-md-enhance`](https://vuepress-theme-hope.github.io/v2/md-enhance/)
+- ✨ [VuePress MarkDown Enhance](https://vuepress-theme-hope.github.io/v2/md-enhance/)
     - 📖 Support LaTeX math formulas using [KaTeX](https://katex.org/)
     - 📈 [Mermaid](https://mermaid-js.github.io/mermaid/#/) support
     - 📊 [Echarts](https://echarts.apache.org/) support
@@ -43,7 +43,7 @@ git add .
 git commit -m "init from Sun-ZhenXing/vuepress-solid-template"
 git remote add origin ${YOUR_REPO}
 git branch -M main
-git push -u origin master
+git push -u origin main
 ```
 
 ## How to config GitHub Pages?
