@@ -2,9 +2,11 @@
 
 ![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/Sun-ZhenXing/vuepress-solid-template/deploy-docs.yml?branch=main)
 
+🚀 [立刻查看 Demo 页面](https://blog.alexsun.top/vuepress-solid-template/).
+
 > **Solid** 不是 **Solid.js**！
 
-最佳 Vuepress 模板，在几分钟之内获得一个精美的、已经配置好的默认主题文档。[Demo 页面](https://blog.alexsun.top/vuepress-solid-template/)。
+最佳 Vuepress 模板，在几分钟之内获得一个精美的、已经配置好的默认主题文档。
 
 特征：
 - 🎉 VuePress2 (Vue3 + Vite4 + TS)
@@ -43,6 +45,24 @@ git remote add origin ${YOUR_REPO}
 git branch -M main
 git push -u origin main
 ```
+
+## 构建
+
+使用 `pnpm` 构建：
+
+```bash
+pnpm i
+pnpm build
+```
+
+使用 Docker 构建：
+
+```bash
+docker build -t vuepress-solid-template .
+docker run -itd -p 80:80 vuepress-solid-template
+```
+
+现在你可以访问 <http://localhost> 来查看你的文档。
 
 ## 如何设置 GitHub Pages？
 

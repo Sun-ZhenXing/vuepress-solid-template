@@ -9,7 +9,8 @@ import { shikiPlugin } from '@vuepress/plugin-shiki'
 
 const __dirname = getDirname(import.meta.url)
 const isProd = process.env.NODE_ENV === 'production'
-
+const ROOT_PATH = path.resolve(__dirname, '../..')
+const CURRENT_PATH = path.resolve(__dirname, '.')
 const USER_NAME = 'Sun-ZhenXing'
 const BASE_PATH = '/vuepress-solid-template/'
 
@@ -23,8 +24,13 @@ export default defineUserConfig({
   base: BASE_PATH,
   markdown: {
     code: {
-      lineNumbers: 10
-    }
+      lineNumbers: 10,
+    },
+    importCode: {
+      handleImportPath: str => str
+        .replace(/^\//, ROOT_PATH.replace(/(?:|\\|\/)$/, '/'))
+        .replace(/^@/, CURRENT_PATH),
+    },
   },
   theme: defaultTheme({
     logo: '/favicon.svg',
@@ -36,10 +42,10 @@ export default defineUserConfig({
         children: [
           {
             text: 'Vuepress Solid Template',
-            link: '/demo/'
-          }
-        ]
-      }
+            link: '/demo/',
+          },
+        ],
+      },
     ],
     sidebar: {
       '/demo/': [
@@ -48,19 +54,29 @@ export default defineUserConfig({
           children: [
             '/demo/page01.md',
             '/demo/page02.md',
-          ]
-        }
-      ]
-    }
+          ],
+        },
+      ],
+    },
+    themePlugins: {
+      git: isProd,
+    },
   }),
   plugins: [
     mdEnhancePlugin({
       gfm: true,
       container: true,
-      linkCheck: true,
       vPre: true,
       tabs: true,
+      card: true,
       codetabs: true,
+      include: {
+        resolvePath: file => {
+          if (file.startsWith('@'))
+            return file.replace('@', CURRENT_PATH)
+          return file
+        },
+      },
       align: true,
       attrs: true,
       sub: true,
@@ -79,13 +95,12 @@ export default defineUserConfig({
             if (tag === 'em') return {
               tag: 'Badge',
               attrs: { type: 'tip' },
-              content: 'Recommend'
+              content: 'Recommend',
             }
-          }
-        }
-      ]
+          },
+        },
+      ],
     }, false),
-    searchProPlugin({}),
     autoCatalogPlugin({
       orderGetter: ({ title, routeMeta }) => {
         if (routeMeta.order) return routeMeta.order as number
@@ -94,17 +109,14 @@ export default defineUserConfig({
         const suffix = title.match(/\d+$/)
         if (suffix) return parseInt(suffix[0])
         return 0
-      }
-    }),
-    copyCodePlugin({
-      showInMobile: true
+      },
     }),
     isProd ? shikiPlugin({ theme: 'dark-plus' }) : [],
+    copyCodePlugin({
+      showInMobile: true,
+    }),
   ],
   alias: {
-    '@': path.resolve(
-      __dirname,
-      '.',
-    )
+    '@': CURRENT_PATH,
   },
 })

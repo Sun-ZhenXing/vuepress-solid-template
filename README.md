@@ -2,11 +2,12 @@
 
 ![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/Sun-ZhenXing/vuepress-solid-template/deploy-docs.yml?branch=main)
 
-[中文文档](./README.zh.md)
+[🌐 中文文档](./README.zh.md) | [🚀 Demo Page](https://blog.alexsun.top/vuepress-solid-template/).
 
 > **Solid** is not **Solid.js**
 
-Best Vuepress Template. Get a beautiful and configured default theme document in minutes. [Demo Page](https://blog.alexsun.top/vuepress-solid-template/).
+Best Vuepress Template. Get a beautiful and configured default theme document in minutes.
+
 
 Features:
 - 🎉 VuePress2 (Vue3 + Vite4 + TS)
@@ -45,6 +46,23 @@ git remote add origin ${YOUR_REPO}
 git branch -M main
 git push -u origin main
 ```
+## Build
+
+Build with `pnpm`:
+
+```bash
+pnpm i
+pnpm build
+```
+
+Build with Docker:
+
+```bash
+docker build -t vuepress-solid-template .
+docker run -itd -p 80:80 vuepress-solid-template
+```
+
+Now you can visit <http://localhost> to see your document.
 
 ## How to config GitHub Pages?
 
