@@ -1,12 +1,12 @@
-# Vuepress Solid Template
+# VuePress2 Solid Template
 
 ![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/Sun-ZhenXing/vuepress-solid-template/deploy-docs.yml?branch=main)
 
 🚀 [立刻查看 Demo 页面](https://blog.alexsun.top/vuepress-solid-template/).
 
-> **Solid** 不是 **Solid.js**！
+> **Solid** 不是 **Solid.js**！VuePress2 是 Vue3 驱动的静态网站生成器。
 
-最佳 Vuepress 模板，在几分钟之内获得一个精美的、已经配置好的默认主题文档。
+最佳 VuePress2 模板，在几分钟之内获得一个精美的、已经配置好的默认主题文档。
 
 特征：
 - 🎉 VuePress2 (Vue3 + Vite4 + TS)
@@ -15,6 +15,7 @@
     - 📈 [Mermaid](https://mermaid-js.github.io/mermaid/#/) 支持
     - 📊 [Echarts](https://echarts.apache.org/) 支持
 - 📋 支持复制代码
+- 📜 自动生成目录
 - 🔍 静态搜索
 
 ## 开始
@@ -55,6 +56,8 @@ pnpm i
 pnpm build
 ```
 
+内容将生成在 `docs/.vuepress/dist` 下。
+
 使用 Docker 构建：
 
 ```bash
@@ -66,13 +69,18 @@ docker run -itd -p 80:80 vuepress-solid-template
 
 ## 如何设置 GitHub Pages？
 
+如果你不需要，可以删除 `.github/workflows/` 下的文件。
+
+第一次在 GitHub Actions 中构建时会报错并发邮件给你，不要惊慌，这是因为你还没有设置 GitHub Pages。
+
 如果你想打开 GitHub Pages：
 
 1. GitHub 打开你的项目主页页面
 2. 点击 `Settings`
 3. 点击 `Actions`，然后点击 `General`
 4. 找到 `Workflow permissions`，然后选中 `Read and write permissions`，保存
-5. 然后点击侧边栏的 `Pages`，然后到 `Build and deployment` 下面
-6. 设置 `Branch: gh-pages /(root)`，可选的 HTTPS，保存
+5. 如果此时你还没有成功执行过 GitHub Actions，那么你需要手动执行一次，打开刚刚的 Actions，点击 `re-run all jobs`
+6. 然后点击侧边栏的 `Pages`，然后到 `Build and deployment` 下面
+7. 设置 `Branch: gh-pages /(root)`，可选的 HTTPS，保存
 
-这将自动创建 **GitHub Pages**，如果你不需要，可以删除 `.github/workflows/` 下的文件。
+这将自动创建 **GitHub Pages**。

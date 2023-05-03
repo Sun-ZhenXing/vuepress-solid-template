@@ -101,6 +101,7 @@ export default defineUserConfig({
         },
       ],
     }, false),
+    searchProPlugin({}),
     autoCatalogPlugin({
       orderGetter: ({ title, routeMeta }) => {
         if (routeMeta.order) return routeMeta.order as number

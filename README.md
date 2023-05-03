@@ -1,13 +1,12 @@
-# Vuepress Solid Template
+# VuePress2 Solid Template
 
 ![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/Sun-ZhenXing/vuepress-solid-template/deploy-docs.yml?branch=main)
 
 [🌐 中文文档](./README.zh.md) | [🚀 Demo Page](https://blog.alexsun.top/vuepress-solid-template/).
 
-> **Solid** is not **Solid.js**
+> **Solid** is not **Solid.js**! VuePress2 is a Vue3-powered static site generator.
 
-Best Vuepress Template. Get a beautiful and configured default theme document in minutes.
-
+Best VuePress2 Template. Get a beautiful and configured default theme document in minutes.
 
 Features:
 - 🎉 VuePress2 (Vue3 + Vite4 + TS)
@@ -16,7 +15,8 @@ Features:
     - 📈 [Mermaid](https://mermaid-js.github.io/mermaid/#/) support
     - 📊 [Echarts](https://echarts.apache.org/) support
 - 📋 Copy code support
-- 🔍 static search support
+- 📜 Auto catalog generation
+- 🔍 Static search support
 
 ## Start
 
@@ -55,6 +55,8 @@ pnpm i
 pnpm build
 ```
 
+You can find the generated static files in `docs/.vuepress/dist`.
+
 Build with Docker:
 
 ```bash
@@ -66,13 +68,18 @@ Now you can visit <http://localhost> to see your document.
 
 ## How to config GitHub Pages?
 
+If you don't want it, reomve `.github/workflows/` file.
+
+When building in GitHub Actions for the first time, an error will be reported and an email will be sent to you. Don't panic because you haven't set up GitHub Pages yet.
+
 If you need to open GitHub Pages:
 
 1. Open your GitHub repo page
 2. Click `Settings`
 3. Click `Actions`, then click `General`
 4. Find `Workflow permissions`, select `Read and write permissions`, save
-5. Click `Pages` on the sidebar, goto `Build and deployment`
-6. config as `Branch: gh-pages /(root)`, or force HTTPS, save
+5. If you have not successfully executed GitHub Actions at this time, you need to manually execute them once. Open the actions you just created and click `re-run all jobs`
+6. Click `Pages` on the sidebar, goto `Build and deployment`
+7. Config as `Branch: gh-pages /(root)`, or force HTTPS, save
 
-It will create **GitHub Pages** automatically. If you don't want it, reomve `.github/workflows/` file.
+It will create **GitHub Pages** automatically. 
