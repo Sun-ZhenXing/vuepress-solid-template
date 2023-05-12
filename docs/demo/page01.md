@@ -26,6 +26,10 @@ Solid is not Solid.js!
 
 :::
 
+## Image
+
+![](/favicon.svg)
+
 ## Mermaid
 
 ```mermaid

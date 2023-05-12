@@ -24,9 +24,14 @@
       margin: 0 auto;
     }
 
-    // optimize: image link icon
-    >a>img+span {
-      display: none;
+    >a>img {
+      display: block;
+      margin: 0 auto;
+
+      // optimize: image link icon
+      &+span {
+        display: none;
+      }
     }
   }
 
