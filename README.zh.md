@@ -9,6 +9,7 @@
 最佳 VuePress2 模板，在几分钟之内获得一个精美的、已经配置好的默认主题文档。
 
 特征：
+
 - 🎉 VuePress2 (Vue3 + Vite4 + TS)
 - ✨ [VuePress MarkDown Enhance](https://vuepress-theme-hope.github.io/v2/md-enhance/)
     - 📖 支持 LaTeX 数学公式，使用 [KaTeX](https://katex.org/)
@@ -29,6 +30,7 @@ pnpm dev
 ```
 
 你唯一要做的是 `docs/.vuepress/config.ts`：
+
 1. 将 `USER_NAME` 修改为你的用户名
 2. 将 `BASE_PATH` 修改为你的仓库路径
 

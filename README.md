@@ -9,6 +9,7 @@
 Best VuePress2 Template. Get a beautiful and configured default theme document in minutes.
 
 Features:
+
 - 🎉 VuePress2 (Vue3 + Vite4 + TS)
 - ✨ [VuePress MarkDown Enhance](https://vuepress-theme-hope.github.io/v2/md-enhance/)
     - 📖 Support LaTeX math formulas using [KaTeX](https://katex.org/)
@@ -28,7 +29,8 @@ pnpm i
 pnpm dev
 ```
 
-The only thing you need to do is to configure `docs/.vuepress/config.ts`：
+The only thing you need to do is to configure `docs/.vuepress/config.ts`:
+
 1. change `USER_NAME` to yours.
 2. change `BASE_PATH` to your repo name.
 
@@ -46,6 +48,7 @@ git remote add origin ${YOUR_REPO}
 git branch -M main
 git push -u origin main
 ```
+
 ## Build
 
 Build with `pnpm`:
@@ -82,4 +85,4 @@ If you need to open GitHub Pages:
 6. Click `Pages` on the sidebar, goto `Build and deployment`
 7. Config as `Branch: gh-pages /(root)`, or force HTTPS, save
 
-It will create **GitHub Pages** automatically. 
+It will create **GitHub Pages** automatically.

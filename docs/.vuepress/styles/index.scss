@@ -11,6 +11,17 @@
     }
   }
 
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+    padding-top: 0;
+  }
+
   // optimize: code
   code {
     padding: 0.25rem 0.15rem;
@@ -24,14 +35,9 @@
       margin: 0 auto;
     }
 
-    >a>img {
-      display: block;
-      margin: 0 auto;
-
-      // optimize: image link icon
-      &+span {
-        display: none;
-      }
+    // optimize: image link icon
+    >a>img+span {
+      display: none;
     }
   }
 
