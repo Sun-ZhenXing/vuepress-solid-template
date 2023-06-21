@@ -74,6 +74,8 @@ export default defineUserConfig({
         resolvePath: file => {
           if (file.startsWith('@'))
             return file.replace('@', CURRENT_PATH)
+          if (file.startsWith('/'))
+            return file.replace(/^\//, ROOT_PATH.replace(/(?:|\\|\/)$/, '/'))
           return file
         },
       },
@@ -85,7 +87,10 @@ export default defineUserConfig({
       mark: true,
       imgLazyload: true,
       tasklist: true,
-      katex: true,
+      linkify: false,
+      katex: {
+        copy: true,
+      },
       mermaid: true,
       delay: 200,
       stylize: [
@@ -112,10 +117,10 @@ export default defineUserConfig({
         return 0
       },
     }),
-    isProd ? shikiPlugin({ theme: 'dark-plus' }) : [],
     copyCodePlugin({
       showInMobile: true,
     }),
+    shikiPlugin({ theme: 'dark-plus' }),
   ],
   alias: {
     '@': CURRENT_PATH,
