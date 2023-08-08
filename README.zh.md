@@ -19,12 +19,11 @@
 - 📜 自动生成目录
 - 🔍 静态搜索
 
-## 开始
+## 1. 开始
 
 ```bash
-# 你可以把 `vuepress-my-docs` 改成你自己定义的仓库名称
-git clone --single-branch https://github.com/Sun-ZhenXing/vuepress-solid-template.git vuepress-my-docs --depth=1
-cd vuepress-my-docs
+git clone https://github.com/Sun-ZhenXing/vuepress-solid-template
+cd vuepress-solid-template
 pnpm i
 pnpm dev
 ```
@@ -34,7 +33,7 @@ pnpm dev
 1. 将 `USER_NAME` 修改为你的用户名
 2. 将 `BASE_PATH` 修改为你的仓库路径
 
-## 上传代码到远程仓库
+## 2. 上传代码到远程仓库
 
 将 `${YOUR_REPO}` 改为你的远程仓库地址。
 
@@ -49,7 +48,7 @@ git branch -M main
 git push -u origin main
 ```
 
-## 构建
+## 3. 构建
 
 使用 `pnpm` 构建：
 
@@ -69,7 +68,7 @@ docker run -itd -p 80:80 vuepress-solid-template
 
 现在你可以访问 <http://localhost> 来查看你的文档。
 
-## 如何设置 GitHub Pages？
+## 4. 如何设置 GitHub Pages？
 
 如果你不需要，可以删除 `.github/workflows/` 下的文件。
 

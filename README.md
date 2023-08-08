@@ -19,12 +19,11 @@ Features:
 - 📜 Auto catalog generation
 - 🔍 Static search support
 
-## Start
+## 1. Start
 
 ```bash
-# You can change `vuepress-my-docs` to your own defined repository name
-git clone --single-branch https://github.com/Sun-ZhenXing/vuepress-solid-template.git vuepress-my-docs --depth=1
-cd vuepress-my-docs
+git clone https://github.com/Sun-ZhenXing/vuepress-solid-template
+cd vuepress-solid-template
 pnpm i
 pnpm dev
 ```
@@ -34,7 +33,7 @@ The only thing you need to do is to configure `docs/.vuepress/config.ts`:
 1. change `USER_NAME` to yours.
 2. change `BASE_PATH` to your repo name.
 
-## Uploading code to a remote repository
+## 2. Uploading code to remote repo
 
 Change `${YOUR_REPO}` to the address of your remote repository.
 
@@ -49,7 +48,7 @@ git branch -M main
 git push -u origin main
 ```
 
-## Build
+## 3. Build
 
 Build with `pnpm`:
 
@@ -69,7 +68,7 @@ docker run -itd -p 80:80 vuepress-solid-template
 
 Now you can visit <http://localhost> to see your document.
 
-## How to config GitHub Pages?
+## 4. How to config GitHub Pages?
 
 If you don't want it, reomve `.github/workflows/` file.
 
