@@ -6,6 +6,7 @@ import { copyCodePlugin } from 'vuepress-plugin-copy-code2'
 import { searchProPlugin } from 'vuepress-plugin-search-pro'
 import { autoCatalogPlugin } from 'vuepress-plugin-auto-catalog'
 import { shikiPlugin } from '@vuepress/plugin-shiki'
+import { slug as slugify } from 'github-slugger'
 
 const __dirname = getDirname(import.meta.url)
 const isProd = process.env.NODE_ENV === 'production'
@@ -16,8 +17,8 @@ const BASE_PATH = '/vuepress-solid-template/'
 
 export default defineUserConfig({
   lang: 'en-US',
-  title: 'Vuepress Solid Template',
-  description: 'Best Vuepress Template',
+  title: 'VuePress Solid Template',
+  description: 'Best VuePress Template',
   head: [
     ['link', { rel: 'icon', href: `${BASE_PATH}favicon.svg` }]
   ],
@@ -25,6 +26,10 @@ export default defineUserConfig({
   markdown: {
     code: {
       lineNumbers: 10,
+    },
+    anchor: {
+      level: [1, 2, 3, 4, 5, 6],
+      slugify,
     },
     importCode: {
       handleImportPath: str => str
@@ -109,11 +114,14 @@ export default defineUserConfig({
     searchProPlugin({}),
     autoCatalogPlugin({
       orderGetter: ({ title, routeMeta }) => {
-        if (routeMeta.order) return routeMeta.order as number
+        if (routeMeta.order)
+          return routeMeta.order as number
         const prefix = title.match(/^\d+. /)
-        if (prefix) return parseInt(prefix[0])
+        if (prefix)
+          return Number.parseInt(prefix[0])
         const suffix = title.match(/\d+$/)
-        if (suffix) return parseInt(suffix[0])
+        if (suffix)
+          return Number.parseInt(suffix[0])
         return 0
       },
     }),
