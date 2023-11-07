@@ -4,6 +4,10 @@
     --c-text: #000;
   }
 
+  main.page {
+    padding: 0;
+  }
+
   header,
   nav.page-nav,
   .line-numbers-mode>.line-numbers {
@@ -50,5 +54,10 @@
   // fix: katex will hide when overflow
   .katex-display>.katex {
     white-space: pre-wrap !important;
+  }
+
+  // hide mermaid actions
+  .mermaid-actions {
+    display: none;
   }
 }
