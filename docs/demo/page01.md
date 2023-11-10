@@ -1,9 +1,3 @@
----
-lang: en-US
-title: Page-01
-description: Demo for page-01
----
-
 # Demo for page-01
 
 ## LaTeX
@@ -20,7 +14,7 @@ $$
 
 ## Container
 
-::: warning
+::: warning Your Warning
 
 Solid is not Solid.js!
 
@@ -58,4 +52,38 @@ int main(int argc, char** argv) {
   std::cout << "Hello World!" << std::endl;
   return 0;
 }
+```
+
+## Tabs
+
+::: tabs
+
+@tab title 1
+
+$$
+\oint
+$$
+
+@tab title 2
+
+$$
+\oiint
+$$
+
+@tab:active title 3
+
+$$
+\oiiint
+$$
+
+:::
+
+## Card
+
+```card
+title: Alex Sun
+desc: Learning what is fun.
+logo: /favicon.svg
+link: https://blog.alexsun.top
+color: rgba(253, 230, 138, 0.15)
 ```

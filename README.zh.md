@@ -13,8 +13,10 @@
 - 🎉 VuePress2 (Vue3 + Vite4 + TS)
 - ✨ [VuePress MarkDown Enhance](https://vuepress-theme-hope.github.io/v2/md-enhance/)
   - 📖 支持 LaTeX 数学公式，使用 [KaTeX](https://katex.org/)
-  - 📈 [Mermaid](https://mermaid-js.github.io/mermaid/#/) 支持
-  - 📊 [Echarts](https://echarts.apache.org/) 支持
+  - 📈 [Mermaid](https://theme-hope.vuejs.press/zh/guide/markdown/mermaid.html) 支持
+  - 📊 [Echarts](https://theme-hope.vuejs.press/zh/guide/markdown/echarts.html) 支持
+  - 🎞️ [幻灯片](https://theme-hope.vuejs.press/zh/guide/markdown/revealjs.html)（使用 `reveal.js`）
+  - 📐 [流程图](https://theme-hope.vuejs.press/zh/guide/markdown/flowchart.html)
 - 📋 支持复制代码
 - 📜 自动生成目录
 - 🔍 静态搜索

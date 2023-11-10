@@ -12,9 +12,11 @@ Features:
 
 - 🎉 VuePress2 (Vue3 + Vite4 + TS)
 - ✨ [VuePress MarkDown Enhance](https://vuepress-theme-hope.github.io/v2/md-enhance/)
-  - 📖 Support LaTeX math formulas using [KaTeX](https://katex.org/)
-  - 📈 [Mermaid](https://mermaid-js.github.io/mermaid/#/) support
-  - 📊 [Echarts](https://echarts.apache.org/) support
+  - 📖 Support LaTeX math formulas (use [KaTeX](https://katex.org/))
+  - 📈 [Mermaid](https://theme-hope.vuejs.press/guide/markdown/mermaid.html)
+  - 📊 [Echarts](https://theme-hope.vuejs.press/guide/markdown/echarts.html)
+  - 🎞️ [Presentation](https://theme-hope.vuejs.press/guide/markdown/revealjs.html) (use `reveal.js`)
+  - 📐 [Flowchart](https://theme-hope.vuejs.press/guide/markdown/flowchart.html)
 - 📋 Copy code support
 - 📜 Auto catalog generation
 - 🔍 Static search support

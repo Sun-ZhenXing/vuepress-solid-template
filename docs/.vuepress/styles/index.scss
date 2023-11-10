@@ -47,4 +47,15 @@
   }
 }
 
+// fix: copy katex code when selected
+.katex {
+  * {
+    user-select: none;
+  }
+
+  annotation {
+    user-select: all;
+  }
+}
+
 @import 'print.scss';

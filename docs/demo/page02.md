@@ -1,9 +1,3 @@
----
-lang: en-US
-title: Page-02
-description: Demo for page-02
----
-
 # Demo for page-02
 
 ## Install
@@ -36,37 +30,24 @@ npm i -D vuepress-plugin-md-enhance@next
 
 ::: info
 
-```bash
-pip3 install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu116
-```
-
 Get the version of PyTorch:
 
-```python
-import logging
-
-import torch
-
-print('PyTorch:', torch.__version__)
-
-device = None
-if torch.cuda.is_available():
-    device = torch.device('cuda')
-    logging.log('CUDA:', torch.version.cuda)
-    logging.log('cuDNN:', torch.backends.cudnn.version())
-else:
-    device = torch.device('cpu')
-    logging.warn('CUDA is not available, using CPU instead! Check your CUDA installation!')
-```
+@[code python](./src/main.py)
 
 :::
 
 ::: details
 
-Install Pnpm:
+Install `pnpm`:
 
 ```bash
 npm i -g pnpm
+```
+
+or use `corepack`:
+
+```bash
+corepack prepare pnpm@latest --activate
 ```
 
 :::
