@@ -77,13 +77,3 @@ $$
 $$
 
 :::
-
-## Card
-
-```card
-title: Alex Sun
-desc: Learning what is fun.
-logo: /favicon.svg
-link: https://blog.alexsun.top
-color: rgba(253, 230, 138, 0.15)
-```
