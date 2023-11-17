@@ -3,7 +3,7 @@ home: true
 heroImage: /favicon.svg
 actions:
   - text: Get Start
-    link: '#hello-vuepress'
+    link: '/demo/'
     type: primary
   - text: Configure
     link: https://v2.vuepress.vuejs.org/guide/

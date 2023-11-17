@@ -10,7 +10,7 @@
 
 特征：
 
-- 🎉 VuePress2 (Vue3 + Vite4 + TS)
+- 🎉 VuePress2 (Vue3 + Vite5 + TS)
 - ✨ [VuePress MarkDown Enhance](https://vuepress-theme-hope.github.io/v2/md-enhance/)
   - 📖 支持 LaTeX 数学公式，使用 [KaTeX](https://katex.org/)
   - 📈 [Mermaid](https://theme-hope.vuejs.press/zh/guide/markdown/mermaid.html) 支持
