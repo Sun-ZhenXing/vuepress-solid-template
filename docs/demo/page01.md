@@ -22,7 +22,7 @@ Solid is not Solid.js!
 
 ## Image
 
-![favicon](/vuepress-solid-template/favicon.svg)
+![favicon](/favicon.svg)
 
 ## Mermaid
 
