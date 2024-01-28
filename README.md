@@ -1,22 +1,23 @@
-# VuePress2 Solid Template
+# *Solid*: a VuePress 2 Template
 
 ![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/Sun-ZhenXing/vuepress-solid-template/deploy-docs.yml?branch=main)
 
-[🌐 中文文档](./README.zh.md) | [🚀 Demo Page](https://blog.alexsun.top/vuepress-solid-template/).
+🌐 [**中文文档**](./README.zh.md) | 🚀 [**Demo Page**](https://blog.alexsun.top/vuepress-solid-template/)
 
-> **Solid** is not **Solid.js**! VuePress2 is a Vue3-powered static site generator.
+## *Solid* is not *Solid.js*! *Solid* is a VuePress2-powered static site generator
 
-Best VuePress2 Template. Get a beautiful and configured default theme document in minutes.
+Best VuePress2 Template. Get a beautiful and configured default theme document in a minute.
 
 Features:
 
 - 🎉 VuePress2 (Vue3 + Vite5 + TS)
 - ✨ [VuePress MarkDown Enhance](https://vuepress-theme-hope.github.io/v2/md-enhance/)
   - 📖 Support LaTeX math formulas (use [KaTeX](https://katex.org/))
-  - 📈 [Mermaid](https://theme-hope.vuejs.press/guide/markdown/mermaid.html)
-  - 📊 [Echarts](https://theme-hope.vuejs.press/guide/markdown/echarts.html)
-  - 🎞️ [Presentation](https://theme-hope.vuejs.press/guide/markdown/revealjs.html) (use `reveal.js`)
-  - 📐 [Flowchart](https://theme-hope.vuejs.press/guide/markdown/flowchart.html)
+  - 📈 [Mermaid](https://theme-hope.vuejs.press/guide/markdown/mermaid.html) (**optional**, installed by default)
+  - 💡 [chartjs](https://vuepress-theme-hope.github.io/v2/md-enhance/guide/chart/chartjs.html) (**optional**, please refer to the [VuePress MarkDown Enhance](https://vuepress-theme-hope.github.io/v2/md-enhance/))
+  - 📊 [Echarts](https://theme-hope.vuejs.press/guide/markdown/echarts.html) (**optional**, please refer to the [VuePress MarkDown Enhance](https://vuepress-theme-hope.github.io/v2/md-enhance/))
+  - 🎞️ [Presentation](https://theme-hope.vuejs.press/guide/markdown/revealjs.html) (use `reveal.js`, **optional**, please refer to the [VuePress MarkDown Enhance](https://vuepress-theme-hope.github.io/v2/md-enhance/))
+  - 📐 [Flowchart](https://theme-hope.vuejs.press/guide/markdown/flowchart.html) (**optional**, please refer to the [VuePress MarkDown Enhance](https://vuepress-theme-hope.github.io/v2/md-enhance/))
 - 📋 Copy code support
 - 📜 Auto catalog generation
 - 🔍 Static search support
@@ -41,9 +42,7 @@ Change `${YOUR_REPO}` to the address of your remote repository.
 
 ```bash
 cd vuepress-my-docs
-rm -rf .git
-git init
-git add .
+rm -rf .git && git init && git add .
 git commit -m "init from Sun-ZhenXing/vuepress-solid-template"
 git remote add origin ${YOUR_REPO}
 git branch -M main
