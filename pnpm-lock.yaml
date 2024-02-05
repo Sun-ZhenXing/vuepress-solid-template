@@ -30,8 +30,8 @@ devDependencies:
     specifier: ^0.16.9
     version: 0.16.9
   mermaid:
-    specifier: ^10.7.0
-    version: 10.7.0
+    specifier: ^10.8.0
+    version: 10.8.0
   vue:
     specifier: ^3.4.15
     version: 3.4.15
@@ -46,7 +46,7 @@ devDependencies:
     version: 2.0.0-rc.16(vuepress@2.0.0-rc.2)
   vuepress-plugin-md-enhance:
     specifier: 2.0.0-rc.16
-    version: 2.0.0-rc.16(katex@0.16.9)(markdown-it@14.0.0)(mermaid@10.7.0)(vuepress@2.0.0-rc.2)
+    version: 2.0.0-rc.16(katex@0.16.9)(markdown-it@14.0.0)(mermaid@10.8.0)(vuepress@2.0.0-rc.2)
   vuepress-plugin-search-pro:
     specifier: 2.0.0-rc.16
     version: 2.0.0-rc.16(vuepress@2.0.0-rc.2)
@@ -1607,12 +1607,6 @@ packages:
       layout-base: 1.0.2
     dev: true
 
-  /cose-base@2.2.0:
-    resolution: {integrity: sha512-AzlgcsCbUMymkADOJtQm3wO9S3ltPfYOFD5033keQn9NJzIbtnZj+UdBJe7DYml/8TdbtHJW3j58SOnKhWY/5g==}
-    dependencies:
-      layout-base: 2.0.1
-    dev: true
-
   /create-codepen@1.0.1:
     resolution: {integrity: sha512-XzSWwGCFNeOnNGp3KdCDGaKq4Cp1SvjzpPGQqO0tj1HT3BhksLdl/xQ2ZEY4+0MQ3m1I/K1Fvpm4GGMthtamyA==}
     dev: true
@@ -1651,15 +1645,6 @@ packages:
       cytoscape: ^3.2.0
     dependencies:
       cose-base: 1.0.3
-      cytoscape: 3.28.1
-    dev: true
-
-  /cytoscape-fcose@2.2.0(cytoscape@3.28.1):
-    resolution: {integrity: sha512-ki1/VuRIHFCzxWNrsshHYPs6L7TvLu3DL+TyIGEsRcvVERmxokbf5Gdk7mFxZnTdiGtnA4cfSmjZJMviqSuZrQ==}
-    peerDependencies:
-      cytoscape: ^3.2.0
-    dependencies:
-      cose-base: 2.2.0
       cytoscape: 3.28.1
     dev: true
 
@@ -2409,10 +2394,6 @@ packages:
     resolution: {integrity: sha512-8h2oVEZNktL4BH2JCOI90iD1yXwL6iNW7KcCKT2QZgQJR2vbqDsldCTPRU9NifTCqHZci57XvQQ15YTu+sTYPg==}
     dev: true
 
-  /layout-base@2.0.1:
-    resolution: {integrity: sha512-dp3s92+uNI1hWIpPGH3jK2kxE2lMjdXdr+DH8ynZHpd6PUlH6x6cbuXnoMmiNumznqaNO31xu9e79F0uuZ0JFg==}
-    dev: true
-
   /lilconfig@3.0.0:
     resolution: {integrity: sha512-K2U4W2Ff5ibV7j7ydLr+zLAkIg5JJ4lPn1Ltsdt+Tz/IjQ8buJ55pZAxoP34lqIiwtF9iAvtLv3JGv7CAyAg+g==}
     engines: {node: '>=14'}
@@ -2576,15 +2557,14 @@ packages:
     engines: {node: '>= 8'}
     dev: true
 
-  /mermaid@10.7.0:
-    resolution: {integrity: sha512-PsvGupPCkN1vemAAjScyw4pw34p4/0dZkSrqvAB26hUvJulOWGIwt35FZWmT9wPIi4r0QLa5X0PB4YLIGn0/YQ==}
+  /mermaid@10.8.0:
+    resolution: {integrity: sha512-9CzfSreRjdDJxX796+jW4zjEq0DVw5xVF0nWsqff8OTbrt+ml0TZ5PyYUjjUZJa2NYxYJZZXewEquxGiM8qZEA==}
     dependencies:
       '@braintree/sanitize-url': 6.0.4
       '@types/d3-scale': 4.0.8
       '@types/d3-scale-chromatic': 3.0.3
       cytoscape: 3.28.1
       cytoscape-cose-bilkent: 4.1.0(cytoscape@3.28.1)
-      cytoscape-fcose: 2.2.0(cytoscape@3.28.1)
       d3: 7.8.5
       d3-sankey: 0.12.3
       dagre-d3-es: 7.0.10
@@ -3514,7 +3494,7 @@ packages:
       - typescript
     dev: true
 
-  /vuepress-plugin-md-enhance@2.0.0-rc.16(katex@0.16.9)(markdown-it@14.0.0)(mermaid@10.7.0)(vuepress@2.0.0-rc.2):
+  /vuepress-plugin-md-enhance@2.0.0-rc.16(katex@0.16.9)(markdown-it@14.0.0)(mermaid@10.8.0)(vuepress@2.0.0-rc.2):
     resolution: {integrity: sha512-3XfVUnTBoOk7c77LLZ79keQm2cKVZmGEEggOwpLnmZDr/qZQ5KFDqE1U0OturUwF/tfiyTB8Z9phpuuJ52u6lg==}
     engines: {node: '>=18.16.0', npm: '>=8', pnpm: '>=7', yarn: '>=2'}
     peerDependencies:
@@ -3592,7 +3572,7 @@ packages:
       balloon-css: 1.2.0
       js-yaml: 4.1.0
       katex: 0.16.9
-      mermaid: 10.7.0
+      mermaid: 10.8.0
       vue: 3.4.15
       vue-router: 4.2.5(vue@3.4.15)
       vuepress: 2.0.0-rc.2(@vuepress/bundler-vite@2.0.0-rc.2)(vue@3.4.15)
