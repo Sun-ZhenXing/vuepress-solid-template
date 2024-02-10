@@ -3,12 +3,11 @@ import { getDirname, path } from '@vuepress/utils'
 import { defineUserConfig } from 'vuepress'
 import { defaultTheme } from '@vuepress/theme-default'
 import { mdEnhancePlugin } from 'vuepress-plugin-md-enhance'
-import { copyCodePlugin } from 'vuepress-plugin-copy-code2'
 import { searchProPlugin } from 'vuepress-plugin-search-pro'
-import { autoCatalogPlugin } from 'vuepress-plugin-auto-catalog'
 import { shikiPlugin } from '@vuepress/plugin-shiki'
 import { slug as slugify } from 'github-slugger'
 import { viteBundler } from '@vuepress/bundler-vite'
+import { catalogPlugin } from '@vuepress/plugin-catalog'
 
 const __dirname = getDirname(import.meta.url)
 const isProd = process.env.NODE_ENV === 'production'
@@ -123,10 +122,7 @@ export default defineUserConfig({
       ],
     }, false),
     searchProPlugin({}),
-    autoCatalogPlugin({}),
-    copyCodePlugin({
-      showInMobile: true,
-    }),
+    catalogPlugin({}),
     shikiPlugin({ theme: 'dark-plus' }),
   ],
   alias: {

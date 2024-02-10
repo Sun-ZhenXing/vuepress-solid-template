@@ -20,4 +20,4 @@ footer: Create from VuePress community!
 
 # Hello VuePress
 
-<AutoCatalog />
+<Catalog />

@@ -1,3 +1,3 @@
 # Demo
 
-<AutoCatalog />
+<Catalog />
