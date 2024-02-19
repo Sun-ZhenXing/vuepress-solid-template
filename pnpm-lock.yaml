@@ -12,8 +12,8 @@ devDependencies:
     specifier: 2.0.0-rc.7
     version: 2.0.0-rc.7(@types/node@20.11.17)
   '@vuepress/client':
-    specifier: 2.0.0-rc.7
-    version: 2.0.0-rc.7
+    specifier: 2.0.0-rc.8
+    version: 2.0.0-rc.8
   '@vuepress/plugin-catalog':
     specifier: 2.0.0-rc.14
     version: 2.0.0-rc.14(vuepress@2.0.0-rc.7)
@@ -967,6 +967,10 @@ packages:
     resolution: {integrity: sha512-+KpckaAQyfbvshdDW5xQylLni1asvNSGme1JFs8I1+/H5pHEhqUKMEQD/qn3Nx5+/nycBq11qAEi8lk+LXI2dA==}
     dev: true
 
+  /@vue/devtools-api@6.6.1:
+    resolution: {integrity: sha512-LgPscpE3Vs0x96PzSSB4IGVSZXZBZHpfxs+ZA1d+VEPwHdOXowy/Y2CsvCAIFrf+ssVU1pD1jidj505EpUnfbA==}
+    dev: true
+
   /@vue/reactivity@3.4.18:
     resolution: {integrity: sha512-7uda2/I0jpLiRygprDo5Jxs2HJkOVXcOMlyVlY54yRLxoycBpwGJRwJT9EdGB4adnoqJDXVT2BilUAYwI7qvmg==}
     dependencies:
@@ -1094,6 +1098,17 @@ packages:
       vue-router: 4.2.5(vue@3.4.18)
     transitivePeerDependencies:
       - '@vue/composition-api'
+      - typescript
+    dev: true
+
+  /@vuepress/client@2.0.0-rc.8:
+    resolution: {integrity: sha512-4RBe5Kbu2I6SOJgFGZJWJLuGcHTdHcZevlT26auhSRD1RrkBvQ1JvxZ5ySgHnCS8AuYTTJnkoqSzGOMPNVPaqQ==}
+    dependencies:
+      '@vue/devtools-api': 6.6.1
+      '@vuepress/shared': 2.0.0-rc.8
+      vue: 3.4.19
+      vue-router: 4.2.5(vue@3.4.19)
+    transitivePeerDependencies:
       - typescript
     dev: true
 
@@ -1338,6 +1353,12 @@ packages:
 
   /@vuepress/shared@2.0.0-rc.7:
     resolution: {integrity: sha512-zNsYzAW5tuENb4vML0pK/61W3EscyOcn5JVPC+c6AwvsYWyAigZaMSu9ycGAptjDwzdYSi3gd33N9Q9T7pG77Q==}
+    dependencies:
+      '@mdit-vue/types': 2.0.0
+    dev: true
+
+  /@vuepress/shared@2.0.0-rc.8:
+    resolution: {integrity: sha512-5C6EzC9A3nepX8pL1zgJnwoP0wtZR2AIaADq3quKKp8rn3otTIsyL3wTQM977rLQhbPg19vYbLdAHyap+DNEIw==}
     dependencies:
       '@mdit-vue/types': 2.0.0
     dev: true
@@ -3162,8 +3183,17 @@ packages:
     peerDependencies:
       vue: ^3.2.0
     dependencies:
-      '@vue/devtools-api': 6.5.1
+      '@vue/devtools-api': 6.6.1
       vue: 3.4.18
+    dev: true
+
+  /vue-router@4.2.5(vue@3.4.19):
+    resolution: {integrity: sha512-DIUpKcyg4+PTQKfFPX88UWhlagBEBEfJ5A8XDXRJLUnZOvcpMF8o/dnL90vpVkGaPbjvXazV/rC1qBKrZlFugw==}
+    peerDependencies:
+      vue: ^3.2.0
+    dependencies:
+      '@vue/devtools-api': 6.6.1
+      vue: 3.4.19
     dev: true
 
   /vue@3.4.18:
