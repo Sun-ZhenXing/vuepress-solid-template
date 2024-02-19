@@ -27,8 +27,8 @@ devDependencies:
     specifier: 2.0.0-rc.14
     version: 2.0.0-rc.14(vuepress@2.0.0-rc.7)
   '@vuepress/utils':
-    specifier: 2.0.0-rc.7
-    version: 2.0.0-rc.7
+    specifier: 2.0.0-rc.8
+    version: 2.0.0-rc.8
   github-slugger:
     specifier: ^2.0.0
     version: 2.0.0
@@ -776,6 +776,11 @@ packages:
     engines: {node: '>=18'}
     dev: true
 
+  /@sindresorhus/merge-streams@2.3.0:
+    resolution: {integrity: sha512-LtoMMhxAlorcGhmFYI+LhPgbPZCkgP6ra1YL604EeF6U98pLlQ3iWIGMdWSC+vWmPBWBNgmDBAhnAobLROJmwg==}
+    engines: {node: '>=18'}
+    dev: true
+
   /@types/d3-scale-chromatic@3.0.3:
     resolution: {integrity: sha512-laXM4+1o5ImZv3RpFAsTRn3TEkzqkytiOY0Dz0sq5cnd1dtNlk6sHLon4OvqaiJb28T0S/TdsBI3Sjsy+keJrw==}
     dev: true
@@ -1406,6 +1411,24 @@ packages:
       debug: 4.3.4
       fs-extra: 11.2.0
       globby: 14.0.0
+      hash-sum: 2.0.0
+      ora: 8.0.1
+      picocolors: 1.0.0
+      upath: 2.0.1
+    transitivePeerDependencies:
+      - supports-color
+    dev: true
+
+  /@vuepress/utils@2.0.0-rc.8:
+    resolution: {integrity: sha512-HjeLWk1r2zggunYjqBYfXhklWmyy0BxhhGtJwycyDXBtDsP4yKiNnk5z3+uJ1UiA6CWEswLtjO6bFrpNf8RPUQ==}
+    dependencies:
+      '@types/debug': 4.1.12
+      '@types/fs-extra': 11.0.4
+      '@types/hash-sum': 1.0.2
+      '@vuepress/shared': 2.0.0-rc.8
+      debug: 4.3.4
+      fs-extra: 11.2.0
+      globby: 14.0.1
       hash-sum: 2.0.0
       ora: 8.0.1
       picocolors: 1.0.0
@@ -2182,6 +2205,18 @@ packages:
     engines: {node: '>=18'}
     dependencies:
       '@sindresorhus/merge-streams': 1.0.0
+      fast-glob: 3.3.2
+      ignore: 5.3.1
+      path-type: 5.0.0
+      slash: 5.1.0
+      unicorn-magic: 0.1.0
+    dev: true
+
+  /globby@14.0.1:
+    resolution: {integrity: sha512-jOMLD2Z7MAhyG8aJpNOpmziMOP4rPLcc95oQPKXBazW82z+CEgPFBQvEpRUa1KeIMUJo4Wsm+q6uzO/Q/4BksQ==}
+    engines: {node: '>=18'}
+    dependencies:
+      '@sindresorhus/merge-streams': 2.3.0
       fast-glob: 3.3.2
       ignore: 5.3.1
       path-type: 5.0.0
