@@ -1,21 +1,27 @@
 {
   "name": "vuepress-solid-template",
+  "type": "module",
   "version": "1.0.0",
+  "packageManager": "pnpm@8.15.3",
   "description": "Best Vuepress Template",
+  "author": "Alex Sun",
+  "license": "MIT",
+  "keywords": [],
   "main": "index.js",
   "scripts": {
+    "postinstall": "simple-git-hooks",
     "dev": "vuepress dev docs",
     "build": "vuepress build docs",
     "clean-dev": "vuepress dev docs --clean-cache",
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
     "docs:clean-dev": "vuepress dev docs --clean-cache",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
   },
-  "keywords": [],
-  "author": "Alex Sun",
-  "license": "ISC",
   "devDependencies": {
+    "@antfu/eslint-config": "^2.6.4",
+    "@eslint/eslintrc": "^3.0.1",
     "@types/node": "^20.11.19",
     "@vuepress/bundler-vite": "2.0.0-rc.7",
     "@vuepress/client": "2.0.0-rc.8",
@@ -24,12 +30,23 @@
     "@vuepress/plugin-shiki": "2.0.0-rc.14",
     "@vuepress/theme-default": "2.0.0-rc.14",
     "@vuepress/utils": "2.0.0-rc.8",
+    "eslint": "^8.56.0",
+    "eslint-plugin-markdownlint": "^0.5.0",
+    "eslint-plugin-perfectionist": "^2.5.0",
     "github-slugger": "^2.0.0",
     "katex": "^0.16.9",
+    "lint-staged": "^15.2.2",
     "mermaid": "^10.8.0",
+    "simple-git-hooks": "^2.9.0",
     "vue": "^3.4.19",
     "vuepress": "2.0.0-rc.7",
     "vuepress-plugin-md-enhance": "2.0.0-rc.23",
     "vuepress-plugin-search-pro": "2.0.0-rc.24"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "pnpm lint-staged"
+  },
+  "lint-staged": {
+    "*": "pnpm lint:fix"
   }
 }

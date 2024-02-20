@@ -14,11 +14,8 @@ $$
 
 ## Container
 
-::: warning Your Warning
-
-Solid is not Solid.js!
-
-:::
+> [!WARNING]
+> Solid is not Solid.js!
 
 ## Image
 

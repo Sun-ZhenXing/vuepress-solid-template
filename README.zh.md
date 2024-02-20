@@ -1,25 +1,27 @@
-# VuePress2 Solid Template
+# *Solid*: 一个 VuePress 2 模板
 
 ![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/Sun-ZhenXing/vuepress-solid-template/deploy-docs.yml?branch=main)
 
 🚀 [立刻查看 Demo 页面](https://blog.alexsun.top/vuepress-solid-template/).
 
-> **Solid** 不是 **Solid.js**！VuePress2 是 Vue3 驱动的静态网站生成器。
+## **Solid** 不是 **Solid.js**！VuePress2 是 Vue3 驱动的静态网站生成器
 
 最佳 VuePress2 模板，在几分钟之内获得一个精美的、已经配置好的默认主题文档。
 
 特征：
 
-- 🎉 VuePress2 (Vue3 + Vite5 + TS)
+- 🎉 VuePress 2 (Vue 3 + Vite 5 + TypeScript)
 - ✨ [VuePress MarkDown Enhance](https://vuepress-theme-hope.github.io/v2/md-enhance/)
-  - 📖 支持 LaTeX 数学公式，使用 [KaTeX](https://katex.org/)
-  - 📈 [Mermaid](https://theme-hope.vuejs.press/zh/guide/markdown/mermaid.html) 支持
-  - 📊 [Echarts](https://theme-hope.vuejs.press/zh/guide/markdown/echarts.html) 支持
-  - 🎞️ [幻灯片](https://theme-hope.vuejs.press/zh/guide/markdown/revealjs.html)（使用 `reveal.js`）
-  - 📐 [流程图](https://theme-hope.vuejs.press/zh/guide/markdown/flowchart.html)
-- 📋 支持复制代码
-- 📜 自动生成目录
-- 🔍 静态搜索
+  - 📖 支持 LaTeX 数学公式（使用 [KaTeX](https://katex.org/)）
+  - 📈 [Mermaid](https://theme-hope.vuejs.press/guide/markdown/mermaid.html)（**可选**，默认安装）
+  - 💡 [chartjs](https://vuepress-theme-hope.github.io/v2/md-enhance/guide/chart/chartjs.html)（**可选**，请参考 [VuePress MarkDown Enhance](https://vuepress-theme-hope.github.io/v2/md-enhance/)）
+  - 📊 [Echarts](https://theme-hope.vuejs.press/guide/markdown/echarts.html)（**可选**，请参考 [VuePress MarkDown Enhance](https://vuepress-theme-hope.github.io/v2/md-enhance/)）
+  - 🎞️ [Presentation](https://theme-hope.vuejs.press/guide/markdown/revealjs.html)（使用 `reveal.js`，**可选**，请参考 [VuePress MarkDown Enhance](https://vuepress-theme-hope.github.io/v2/md-enhance/)）
+  - 📐 [Flowchart](https://theme-hope.vuejs.press/guide/markdown/flowchart.html)（**可选**，请参考 [VuePress MarkDown Enhance](https://vuepress-theme-hope.github.io/v2/md-enhance/)）
+  - 📋 代码复制支持
+  - 📜 自动生成目录
+  - 🔍 静态搜索支持
+  - 🎇 ESLint 和 Git 钩子自动规范化
 
 ## 1. 开始
 
@@ -41,9 +43,7 @@ pnpm dev
 
 ```bash
 cd vuepress-my-docs
-rm -rf .git
-git init
-git add .
+rm -rf .git && git init && git add .
 git commit -m "init from Sun-ZhenXing/vuepress-solid-template"
 git remote add origin ${YOUR_REPO}
 git branch -M main

@@ -4,6 +4,6 @@
     "vstirbu.vscode-mermaid-preview",
     "bpruitt-goddard.mermaid-markdown-syntax-highlighting",
     "bierner.markdown-mermaid",
-    "DavidAnson.vscode-markdownlint"
+    "dbaeumer.vscode-eslint"
   ]
 }

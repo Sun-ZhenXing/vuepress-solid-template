@@ -10,7 +10,7 @@ Best VuePress2 Template. Get a beautiful and configured default theme document i
 
 Features:
 
-- 🎉 VuePress2 (Vue3 + Vite5 + TS)
+- 🎉 VuePress 2 (Vue 3 + Vite 5 + TypeScript)
 - ✨ [VuePress MarkDown Enhance](https://vuepress-theme-hope.github.io/v2/md-enhance/)
   - 📖 Support LaTeX math formulas (use [KaTeX](https://katex.org/))
   - 📈 [Mermaid](https://theme-hope.vuejs.press/guide/markdown/mermaid.html) (**optional**, installed by default)
@@ -21,6 +21,7 @@ Features:
 - 📋 Copy code support
 - 📜 Auto catalog generation
 - 🔍 Static search support
+- 🎇 ESLint & Git hooks
 
 ## 1. Start
 

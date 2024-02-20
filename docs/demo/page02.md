@@ -28,13 +28,10 @@ npm i -D vuepress-plugin-md-enhance@next
 
 ## Demo for container
 
-::: info
-
-Get the version of PyTorch:
-
-@[code python](./src/main.py)
-
-:::
+> [!TIP]
+> Get the version of PyTorch:
+>
+> @[code python](./src/main.py)
 
 ::: details
 
