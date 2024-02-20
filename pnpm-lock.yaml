@@ -6,11 +6,11 @@ settings:
 
 devDependencies:
   '@types/node':
-    specifier: ^20.11.17
-    version: 20.11.17
+    specifier: ^20.11.19
+    version: 20.11.19
   '@vuepress/bundler-vite':
     specifier: 2.0.0-rc.7
-    version: 2.0.0-rc.7(@types/node@20.11.17)
+    version: 2.0.0-rc.7(@types/node@20.11.19)
   '@vuepress/client':
     specifier: 2.0.0-rc.8
     version: 2.0.0-rc.8
@@ -809,7 +809,7 @@ packages:
     resolution: {integrity: sha512-yTbItCNreRooED33qjunPthRcSjERP1r4MqCZc7wv0u2sUkzTFp45tgUfS5+r7FrZPdmCCNflLhVSP/o+SemsQ==}
     dependencies:
       '@types/jsonfile': 6.1.4
-      '@types/node': 20.11.17
+      '@types/node': 20.11.19
     dev: true
 
   /@types/hash-sum@1.0.2:
@@ -819,7 +819,7 @@ packages:
   /@types/jsonfile@6.1.4:
     resolution: {integrity: sha512-D5qGUYwjvnNNextdU59/+fI+spnwtTFmyQP0h+PfIOSkNfpU6AOICUOkm4i0OnSk+NyjdPJrxCDro0sJsWlRpQ==}
     dependencies:
-      '@types/node': 20.11.17
+      '@types/node': 20.11.19
     dev: true
 
   /@types/katex@0.16.7:
@@ -861,8 +861,8 @@ packages:
     resolution: {integrity: sha512-w+tIMs3rq2afQdsPJlODhoUEKzFP1ayaoyl1CcnwtIlsVe7K7bA1NGm4s3PraqTLlXnbIN84zuBlxBWo1u9BLw==}
     dev: true
 
-  /@types/node@20.11.17:
-    resolution: {integrity: sha512-QmgQZGWu1Yw9TDyAP9ZzpFJKynYNeOvwMJmaxABfieQoVoiVOS6MN1WSpqpRcbeA5+RW82kraAVxCCJg+780Qw==}
+  /@types/node@20.11.19:
+    resolution: {integrity: sha512-7xMnVEcZFu0DikYjWOlRq7NTPETrm7teqUT2WkQjrTIkEgUyyGdWsj/Zg8bEJt5TNklzbPD1X3fqfsHw3SpapQ==}
     dependencies:
       undici-types: 5.26.5
     dev: true
@@ -870,7 +870,7 @@ packages:
   /@types/sax@1.2.7:
     resolution: {integrity: sha512-rO73L89PJxeYM3s3pPPjiPgVVcymqU490g0YO5n5By0k2Erzj6tay/4lr1CHAAU4JyOWd1rpQ8bCf6cZfHU96A==}
     dependencies:
-      '@types/node': 20.11.17
+      '@types/node': 20.11.19
     dev: true
 
   /@types/unist@2.0.10:
@@ -888,7 +888,7 @@ packages:
       vite: ^5.0.0
       vue: ^3.2.25
     dependencies:
-      vite: 5.0.12(@types/node@20.11.17)
+      vite: 5.0.12(@types/node@20.11.19)
       vue: 3.4.18
     dev: true
 
@@ -1046,7 +1046,7 @@ packages:
     resolution: {integrity: sha512-/KliRRHMF6LoiThEy+4c1Z4KB/gbPrGjWwJR+crg2otgrf/egKzRaCPvJ51S5oetgsgXLfc4Rm5ZgrKHZrtMSw==}
     dev: true
 
-  /@vuepress/bundler-vite@2.0.0-rc.7(@types/node@20.11.17):
+  /@vuepress/bundler-vite@2.0.0-rc.7(@types/node@20.11.19):
     resolution: {integrity: sha512-2jNnU3sgHJuUCPfE0DvGRsAxo/A/Locguvnv4Q6QwJYdB1fuAqE6x5p8RDzq8Lv/GsyeexDWiV/PFER5EtVP3w==}
     dependencies:
       '@vitejs/plugin-vue': 5.0.3(vite@5.0.12)(vue@3.4.18)
@@ -1059,7 +1059,7 @@ packages:
       postcss: 8.4.35
       postcss-load-config: 5.0.3(postcss@8.4.35)
       rollup: 4.9.6
-      vite: 5.0.12(@types/node@20.11.17)
+      vite: 5.0.12(@types/node@20.11.19)
       vue: 3.4.18
       vue-router: 4.2.5(vue@3.4.18)
     transitivePeerDependencies:
@@ -3147,7 +3147,7 @@ packages:
       sade: 1.8.1
     dev: true
 
-  /vite@5.0.12(@types/node@20.11.17):
+  /vite@5.0.12(@types/node@20.11.19):
     resolution: {integrity: sha512-4hsnEkG3q0N4Tzf1+t6NdN9dg/L3BM+q8SWgbSPnJvrgH2kgdyzfVJwbR1ic69/4uMJJ/3dqDZZE5/WwqW8U1w==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
@@ -3175,7 +3175,7 @@ packages:
       terser:
         optional: true
     dependencies:
-      '@types/node': 20.11.17
+      '@types/node': 20.11.19
       esbuild: 0.19.12
       postcss: 8.4.35
       rollup: 4.9.6
@@ -3472,7 +3472,7 @@ packages:
       '@vuepress/bundler-webpack':
         optional: true
     dependencies:
-      '@vuepress/bundler-vite': 2.0.0-rc.7(@types/node@20.11.17)
+      '@vuepress/bundler-vite': 2.0.0-rc.7(@types/node@20.11.19)
       '@vuepress/cli': 2.0.0-rc.7
       '@vuepress/client': 2.0.0-rc.7
       '@vuepress/core': 2.0.0-rc.7
