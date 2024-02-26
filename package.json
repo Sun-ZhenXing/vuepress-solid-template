@@ -2,7 +2,7 @@
   "name": "vuepress-solid-template",
   "type": "module",
   "version": "1.0.0",
-  "packageManager": "pnpm@8.15.3",
+  "packageManager": "pnpm@8.15.4",
   "description": "Best Vuepress Template",
   "author": "Alex Sun",
   "license": "MIT",
@@ -25,9 +25,9 @@
     "@types/node": "^20.11.20",
     "@vuepress/bundler-vite": "2.0.0-rc.8",
     "@vuepress/client": "2.0.0-rc.8",
-    "@vuepress/plugin-catalog": "2.0.0-rc.15",
-    "@vuepress/plugin-copy-code": "2.0.0-rc.15",
-    "@vuepress/plugin-shiki": "2.0.0-rc.15",
+    "@vuepress/plugin-catalog": "2.0.0-rc.17",
+    "@vuepress/plugin-copy-code": "2.0.0-rc.17",
+    "@vuepress/plugin-shiki": "2.0.0-rc.17",
     "@vuepress/theme-default": "2.0.0-rc.17",
     "@vuepress/utils": "2.0.0-rc.8",
     "eslint": "^8.57.0",
@@ -40,8 +40,8 @@
     "simple-git-hooks": "^2.9.0",
     "vue": "^3.4.20",
     "vuepress": "2.0.0-rc.8",
-    "vuepress-plugin-md-enhance": "2.0.0-rc.25",
-    "vuepress-plugin-search-pro": "2.0.0-rc.25"
+    "vuepress-plugin-md-enhance": "2.0.0-rc.26",
+    "vuepress-plugin-search-pro": "2.0.0-rc.26"
   },
   "simple-git-hooks": {
     "pre-commit": "pnpm lint-staged"
