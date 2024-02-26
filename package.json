@@ -21,8 +21,8 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.6.4",
-    "@eslint/eslintrc": "^3.0.1",
-    "@types/node": "^20.11.19",
+    "@eslint/eslintrc": "^3.0.2",
+    "@types/node": "^20.11.20",
     "@vuepress/bundler-vite": "2.0.0-rc.8",
     "@vuepress/client": "2.0.0-rc.8",
     "@vuepress/plugin-catalog": "2.0.0-rc.15",
@@ -30,7 +30,7 @@
     "@vuepress/plugin-shiki": "2.0.0-rc.15",
     "@vuepress/theme-default": "2.0.0-rc.15",
     "@vuepress/utils": "2.0.0-rc.8",
-    "eslint": "^8.56.0",
+    "eslint": "^8.57.0",
     "eslint-plugin-markdownlint": "^0.5.0",
     "eslint-plugin-perfectionist": "^2.5.0",
     "github-slugger": "^2.0.0",
@@ -38,7 +38,7 @@
     "lint-staged": "^15.2.2",
     "mermaid": "^10.8.0",
     "simple-git-hooks": "^2.9.0",
-    "vue": "^3.4.19",
+    "vue": "^3.4.20",
     "vuepress": "2.0.0-rc.8",
     "vuepress-plugin-md-enhance": "2.0.0-rc.25",
     "vuepress-plugin-search-pro": "2.0.0-rc.25"
