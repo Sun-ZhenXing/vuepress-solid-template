@@ -27,8 +27,8 @@ devDependencies:
     specifier: 2.0.0-rc.17
     version: 2.0.0-rc.17(typescript@5.3.3)(vuepress@2.0.0-rc.8)
   '@vuepress/plugin-shiki':
-    specifier: 2.0.0-rc.17
-    version: 2.0.0-rc.17(vuepress@2.0.0-rc.8)
+    specifier: 2.0.0-rc.18
+    version: 2.0.0-rc.18(vuepress@2.0.0-rc.8)
   '@vuepress/theme-default':
     specifier: 2.0.0-rc.17
     version: 2.0.0-rc.17(typescript@5.3.3)(vuepress@2.0.0-rc.8)
@@ -1675,8 +1675,8 @@ packages:
       - typescript
     dev: true
 
-  /@vuepress/plugin-shiki@2.0.0-rc.17(vuepress@2.0.0-rc.8):
-    resolution: {integrity: sha512-FRB/fTiFi/skMMcxvftp0v6mykHtachRUPoVy6ZA0PMVw2v/NXNgc0MLpMUASP4y4vNHbF61vP231Gpkoo5xiA==}
+  /@vuepress/plugin-shiki@2.0.0-rc.18(vuepress@2.0.0-rc.8):
+    resolution: {integrity: sha512-58sNk34ZOSAmxI1Lv1HBYyYmnAphvK45RYMxNRVbMhEjkULFmTN67U3LFGsY8MQMpnYPrEfAu6AVkaMnqCtFfQ==}
     peerDependencies:
       vuepress: 2.0.0-rc.8
     dependencies:
