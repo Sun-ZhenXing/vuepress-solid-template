@@ -21,8 +21,8 @@ devDependencies:
     specifier: 2.0.0-rc.8
     version: 2.0.0-rc.8(typescript@5.4.2)
   '@vuepress/plugin-catalog':
-    specifier: 2.0.0-rc.18
-    version: 2.0.0-rc.18(typescript@5.4.2)(vuepress@2.0.0-rc.8)
+    specifier: 2.0.0-rc.20
+    version: 2.0.0-rc.20(typescript@5.4.2)(vuepress@2.0.0-rc.8)
   '@vuepress/plugin-copy-code':
     specifier: 2.0.0-rc.18
     version: 2.0.0-rc.18(typescript@5.4.2)(vuepress@2.0.0-rc.8)
@@ -1573,6 +1573,21 @@ packages:
       - typescript
     dev: true
 
+  /@vuepress/helper@2.0.0-rc.19(typescript@5.4.2)(vuepress@2.0.0-rc.8):
+    resolution: {integrity: sha512-g8udvFCIBcEcpLTo1BFZw452oBmnflW3lCmN0rR+SfIkZymi9CnFV8LgxTF/KV7vB71QMjN8IAwCVvJ3pGCUag==}
+    peerDependencies:
+      vuepress: 2.0.0-rc.8
+    dependencies:
+      '@vue/shared': 3.4.21
+      cheerio: 1.0.0-rc.12
+      fflate: 0.8.2
+      gray-matter: 4.0.3
+      vue: 3.4.21(typescript@5.4.2)
+      vuepress: 2.0.0-rc.8(@vuepress/bundler-vite@2.0.0-rc.8)(typescript@5.4.2)(vue@3.4.21)
+    transitivePeerDependencies:
+      - typescript
+    dev: true
+
   /@vuepress/markdown@2.0.0-rc.8:
     resolution: {integrity: sha512-BJfun3rFpKbq3WwVNyJGZyc9QXN6sXKwMY2PRFiJqpG0A1ZxjZQFUvDRnSUgWEsBiluB23hZ4Pd0WP+6YNAq9w==}
     dependencies:
@@ -1623,12 +1638,12 @@ packages:
       - typescript
     dev: true
 
-  /@vuepress/plugin-catalog@2.0.0-rc.18(typescript@5.4.2)(vuepress@2.0.0-rc.8):
-    resolution: {integrity: sha512-aKW4ec8UbUIx0uN/VPmLufCxr6u+N8ZPQcdWumdudB5IPhnrg/9Rcne1jjkWOWxDX6pPJiRxI8V9caDONIoMgA==}
+  /@vuepress/plugin-catalog@2.0.0-rc.20(typescript@5.4.2)(vuepress@2.0.0-rc.8):
+    resolution: {integrity: sha512-Rb4Kldgyn7Fzit5/A6r0Kr0Sg0zQn5ahRwhClwZTfYd2WDZnizUnTcCMoZyY4QUcpchvug2fx4a0e8GI2mT8uA==}
     peerDependencies:
       vuepress: 2.0.0-rc.8
     dependencies:
-      '@vuepress/helper': 2.0.0-rc.18(typescript@5.4.2)(vuepress@2.0.0-rc.8)
+      '@vuepress/helper': 2.0.0-rc.19(typescript@5.4.2)(vuepress@2.0.0-rc.8)
       vue: 3.4.21(typescript@5.4.2)
       vuepress: 2.0.0-rc.8(@vuepress/bundler-vite@2.0.0-rc.8)(typescript@5.4.2)(vue@3.4.21)
     transitivePeerDependencies:
