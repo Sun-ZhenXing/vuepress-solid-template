@@ -33,8 +33,8 @@ devDependencies:
     specifier: 2.0.0-rc.20
     version: 2.0.0-rc.20(typescript@5.4.3)(vuepress@2.0.0-rc.8)
   '@vuepress/utils':
-    specifier: 2.0.0-rc.8
-    version: 2.0.0-rc.8
+    specifier: 2.0.0-rc.9
+    version: 2.0.0-rc.9
   eslint:
     specifier: ^8.57.0
     version: 8.57.0
@@ -1861,6 +1861,12 @@ packages:
       '@mdit-vue/types': 2.0.0
     dev: true
 
+  /@vuepress/shared@2.0.0-rc.9:
+    resolution: {integrity: sha512-XfI6CWNv4/Vp9Iew6GJil9RUSy1rM7zGdjwikr0j3Rkh55q3f00w1wud47wE9kxRqsZ0PIvsMget5CxEn5rA/w==}
+    dependencies:
+      '@mdit-vue/types': 2.0.0
+    dev: true
+
   /@vuepress/theme-default@2.0.0-rc.20(typescript@5.4.3)(vuepress@2.0.0-rc.8):
     resolution: {integrity: sha512-fXiUNMdmG2d1V6RRigm9/lMHKrJp1MoXPO4CRxdJnfpfxlzgTA9JqEPfgBqeovS1OE+pm+GrFSxRToAHSfS68g==}
     peerDependencies:
@@ -1901,6 +1907,24 @@ packages:
       '@types/fs-extra': 11.0.4
       '@types/hash-sum': 1.0.2
       '@vuepress/shared': 2.0.0-rc.8
+      debug: 4.3.4
+      fs-extra: 11.2.0
+      globby: 14.0.1
+      hash-sum: 2.0.0
+      ora: 8.0.1
+      picocolors: 1.0.0
+      upath: 2.0.1
+    transitivePeerDependencies:
+      - supports-color
+    dev: true
+
+  /@vuepress/utils@2.0.0-rc.9:
+    resolution: {integrity: sha512-qk6Pel4JVKYKxp3bWxyvnwchvx3QaCWc7SqUw7L6qUo/um+0U2U45L0anWoAfckw12RXYhoIEbJ9UZpueiKOPg==}
+    dependencies:
+      '@types/debug': 4.1.12
+      '@types/fs-extra': 11.0.4
+      '@types/hash-sum': 1.0.2
+      '@vuepress/shared': 2.0.0-rc.9
       debug: 4.3.4
       fs-extra: 11.2.0
       globby: 14.0.1
