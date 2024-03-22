@@ -18,8 +18,8 @@ devDependencies:
     specifier: 2.0.0-rc.8
     version: 2.0.0-rc.8(@types/node@20.11.30)(typescript@5.4.3)
   '@vuepress/client':
-    specifier: 2.0.0-rc.8
-    version: 2.0.0-rc.8(typescript@5.4.3)
+    specifier: 2.0.0-rc.9
+    version: 2.0.0-rc.9(typescript@5.4.3)
   '@vuepress/plugin-catalog':
     specifier: 2.0.0-rc.20
     version: 2.0.0-rc.20(typescript@5.4.3)(vuepress@2.0.0-rc.8)
@@ -1623,6 +1623,17 @@ packages:
       - typescript
     dev: true
 
+  /@vuepress/client@2.0.0-rc.9(typescript@5.4.3):
+    resolution: {integrity: sha512-V5jA6L1nHQ8tXBshRHBJKei7HPFonGxFzmVK5yjj2Ho/Xtp/SD9rBS6dyYd5CSkKRGQDgy19Z+BUUPXtdI1qzg==}
+    dependencies:
+      '@vue/devtools-api': 6.6.1
+      '@vuepress/shared': 2.0.0-rc.9
+      vue: 3.4.21(typescript@5.4.3)
+      vue-router: 4.3.0(vue@3.4.21)
+    transitivePeerDependencies:
+      - typescript
+    dev: true
+
   /@vuepress/core@2.0.0-rc.8(typescript@5.4.3):
     resolution: {integrity: sha512-Td4J65ZCpwcNzLccJAF0jLW2Ayqe134B5RIpellUWVdoimqhNGe7ph1dUIFQ14OzquBjtSYAVWcfeOwpHKlN+A==}
     dependencies:
@@ -1857,6 +1868,12 @@ packages:
 
   /@vuepress/shared@2.0.0-rc.8:
     resolution: {integrity: sha512-5C6EzC9A3nepX8pL1zgJnwoP0wtZR2AIaADq3quKKp8rn3otTIsyL3wTQM977rLQhbPg19vYbLdAHyap+DNEIw==}
+    dependencies:
+      '@mdit-vue/types': 2.0.0
+    dev: true
+
+  /@vuepress/shared@2.0.0-rc.9:
+    resolution: {integrity: sha512-XfI6CWNv4/Vp9Iew6GJil9RUSy1rM7zGdjwikr0j3Rkh55q3f00w1wud47wE9kxRqsZ0PIvsMget5CxEn5rA/w==}
     dependencies:
       '@mdit-vue/types': 2.0.0
     dev: true
