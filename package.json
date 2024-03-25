@@ -34,7 +34,7 @@
     "eslint-plugin-markdownlint": "^0.5.0",
     "eslint-plugin-perfectionist": "^2.7.0",
     "github-slugger": "^2.0.0",
-    "katex": "^0.16.9",
+    "katex": "^0.16.10",
     "lint-staged": "^15.2.2",
     "mermaid": "^10.9.0",
     "simple-git-hooks": "^2.11.0",
