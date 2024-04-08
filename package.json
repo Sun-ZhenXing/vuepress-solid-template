@@ -25,7 +25,7 @@
     "@types/node": "^20.12.4",
     "@vuepress/bundler-vite": "2.0.0-rc.9",
     "@vuepress/client": "2.0.0-rc.9",
-    "@vuepress/plugin-catalog": "2.0.0-rc.23",
+    "@vuepress/plugin-catalog": "2.0.0-rc.24",
     "@vuepress/plugin-copy-code": "2.0.0-rc.23",
     "@vuepress/plugin-shiki": "2.0.0-rc.22",
     "@vuepress/theme-default": "2.0.0-rc.23",
