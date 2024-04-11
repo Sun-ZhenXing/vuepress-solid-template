@@ -71,6 +71,7 @@ export default defineUserConfig({
       },
       katex: {
         copy: true,
+        mhchem: true,
       },
       linkify: false,
       mark: true,
