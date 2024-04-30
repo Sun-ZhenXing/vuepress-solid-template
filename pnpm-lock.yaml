@@ -30,8 +30,8 @@ devDependencies:
     specifier: 2.0.0-rc.25
     version: 2.0.0-rc.25(vuepress@2.0.0-rc.9)
   '@vuepress/theme-default':
-    specifier: 2.0.0-rc.25
-    version: 2.0.0-rc.25(typescript@5.4.5)(vuepress@2.0.0-rc.9)
+    specifier: 2.0.0-rc.26
+    version: 2.0.0-rc.26(typescript@5.4.5)(vuepress@2.0.0-rc.9)
   '@vuepress/utils':
     specifier: 2.0.0-rc.9
     version: 2.0.0-rc.9
@@ -1184,7 +1184,7 @@ packages:
   /@types/markdown-it-emoji@2.0.5:
     resolution: {integrity: sha512-iJLsmCNpSWKtV6Ia3mLSjcXJPEt7ubGG342z+hGvYx++TpM19oTUrJcI7XjbOqRQ+W2UQ323E7B0eCLwlgT/9g==}
     dependencies:
-      '@types/markdown-it': 13.0.7
+      '@types/markdown-it': 14.0.1
     dev: true
 
   /@types/markdown-it@13.0.7:
@@ -1827,8 +1827,8 @@ packages:
       '@mdit-vue/types': 2.1.0
     dev: true
 
-  /@vuepress/theme-default@2.0.0-rc.25(typescript@5.4.5)(vuepress@2.0.0-rc.9):
-    resolution: {integrity: sha512-h3CzJPlWebtE3V4+puXTTcYoeLa32Z43CyfhdDKrVywxjRPEfOsL10i7PgqDxolomlzyHOmFJEaVk7ffZN2Vvg==}
+  /@vuepress/theme-default@2.0.0-rc.26(typescript@5.4.5)(vuepress@2.0.0-rc.9):
+    resolution: {integrity: sha512-g0knQJpsCVGBRm6iGBMmW0uSlReAA42I9qt6fmt2sRlVjhjAniStTHoZUM4kzRGFSwqqi6BzMdp8RVXolkE/fQ==}
     peerDependencies:
       sass-loader: ^14.0.0
       vuepress: 2.0.0-rc.9
