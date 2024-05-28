@@ -20,7 +20,7 @@
     "lint:fix": "eslint . --fix"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^2.16.2",
+    "@antfu/eslint-config": "^2.19.1",
     "@eslint/eslintrc": "^3.0.2",
     "@types/node": "^20.12.10",
     "@vuepress/bundler-vite": "2.0.0-rc.9",
