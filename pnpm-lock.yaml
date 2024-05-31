@@ -21,8 +21,8 @@ importers:
         specifier: 2.0.0-rc.12
         version: 2.0.0-rc.12(@types/node@20.12.13)(sass@1.77.4)(typescript@5.4.5)
       '@vuepress/client':
-        specifier: 2.0.0-rc.12
-        version: 2.0.0-rc.12(typescript@5.4.5)
+        specifier: 2.0.0-rc.13
+        version: 2.0.0-rc.13(typescript@5.4.5)
       '@vuepress/plugin-catalog':
         specifier: 2.0.0-rc.33
         version: 2.0.0-rc.33(typescript@5.4.5)(vuepress@2.0.0-rc.12(@vuepress/bundler-vite@2.0.0-rc.12(@types/node@20.12.13)(sass@1.77.4)(typescript@5.4.5))(typescript@5.4.5)(vue@3.4.27(typescript@5.4.5)))
@@ -893,6 +893,9 @@ packages:
   '@vuepress/client@2.0.0-rc.12':
     resolution: {integrity: sha512-S5xfPT/9XRpI5UAky5hS6GD9YcXkuWpLwsYTLgUVBIOgQ2MI+QyPPNr0fKHG2EXfJ7YfdSZBlcJ9BTfZ9jnyZg==}
 
+  '@vuepress/client@2.0.0-rc.13':
+    resolution: {integrity: sha512-kFHVyroAFZ+/ZVaItjIXOZA6r+ympWN+C+0yZYVkMpzyDVFdZrl9WazqhwHBIUj0/sA+NLq2o2EvoqvAPa1lFg==}
+
   '@vuepress/core@2.0.0-rc.12':
     resolution: {integrity: sha512-0NsrcqgnGAI1tMXBScueZMeAZLImMrbNU6QW55FDlt12IrV8/nZz/FDcBnUHn6+30PlsrzAX2jyXlCBM9Z+KxA==}
 
@@ -990,6 +993,9 @@ packages:
 
   '@vuepress/shared@2.0.0-rc.12':
     resolution: {integrity: sha512-JPBygsjmtP9I4I7ESsQrebW6PXIxKktWAFWGDG85RCIiUFklEN792vEJ2XbDZvF5XaU/8H8fadApb6xqRB7Lww==}
+
+  '@vuepress/shared@2.0.0-rc.13':
+    resolution: {integrity: sha512-xtruKVH9QqTLIQxbPbU3iZWthLC8uR5yYUzVA6eL+knjHkpCXOlzqMYnlp4xT0tzQNw+gBHWLKo8zVEccSkqug==}
 
   '@vuepress/theme-default@2.0.0-rc.33':
     resolution: {integrity: sha512-obix0GC8q2HqVDw+q6QqKrJRUUzIqbkDHAmySHvwLPbQefpBnfAe/6/JUweBtbjgmRo6Z1f3pAEFgfw7/Ikb+A==}
@@ -3860,6 +3866,15 @@ snapshots:
     transitivePeerDependencies:
       - typescript
 
+  '@vuepress/client@2.0.0-rc.13(typescript@5.4.5)':
+    dependencies:
+      '@vue/devtools-api': 6.6.1
+      '@vuepress/shared': 2.0.0-rc.13
+      vue: 3.4.27(typescript@5.4.5)
+      vue-router: 4.3.2(vue@3.4.27(typescript@5.4.5))
+    transitivePeerDependencies:
+      - typescript
+
   '@vuepress/core@2.0.0-rc.12(typescript@5.4.5)':
     dependencies:
       '@vuepress/client': 2.0.0-rc.12(typescript@5.4.5)
@@ -4027,6 +4042,10 @@ snapshots:
       - typescript
 
   '@vuepress/shared@2.0.0-rc.12':
+    dependencies:
+      '@mdit-vue/types': 2.1.0
+
+  '@vuepress/shared@2.0.0-rc.13':
     dependencies:
       '@mdit-vue/types': 2.1.0
 

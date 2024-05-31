@@ -24,7 +24,7 @@
     "@eslint/eslintrc": "^3.1.0",
     "@types/node": "^20.12.13",
     "@vuepress/bundler-vite": "2.0.0-rc.12",
-    "@vuepress/client": "2.0.0-rc.12",
+    "@vuepress/client": "2.0.0-rc.13",
     "@vuepress/plugin-catalog": "2.0.0-rc.33",
     "@vuepress/plugin-copy-code": "2.0.0-rc.33",
     "@vuepress/plugin-shiki": "2.0.0-rc.33",
