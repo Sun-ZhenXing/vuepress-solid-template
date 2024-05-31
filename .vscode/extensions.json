@@ -1,7 +1,6 @@
 {
   "recommendations": [
     "yzhang.markdown-all-in-one",
-    "vstirbu.vscode-mermaid-preview",
     "bpruitt-goddard.mermaid-markdown-syntax-highlighting",
     "bierner.markdown-mermaid",
     "dbaeumer.vscode-eslint"
