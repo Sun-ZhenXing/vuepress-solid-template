@@ -33,8 +33,8 @@ importers:
         specifier: 2.0.0-rc.34
         version: 2.0.0-rc.34(typescript@5.4.5)(vuepress@2.0.0-rc.13(@vuepress/bundler-vite@2.0.0-rc.13(@types/node@20.14.2)(sass@1.77.4)(typescript@5.4.5))(typescript@5.4.5)(vue@3.4.27(typescript@5.4.5)))
       '@vuepress/theme-default':
-        specifier: 2.0.0-rc.34
-        version: 2.0.0-rc.34(typescript@5.4.5)(vuepress@2.0.0-rc.13(@vuepress/bundler-vite@2.0.0-rc.13(@types/node@20.14.2)(sass@1.77.4)(typescript@5.4.5))(typescript@5.4.5)(vue@3.4.27(typescript@5.4.5)))
+        specifier: 2.0.0-rc.35
+        version: 2.0.0-rc.35(typescript@5.4.5)(vuepress@2.0.0-rc.13(@vuepress/bundler-vite@2.0.0-rc.13(@types/node@20.14.2)(sass@1.77.4)(typescript@5.4.5))(typescript@5.4.5)(vue@3.4.27(typescript@5.4.5)))
       eslint:
         specifier: ^8.57.0
         version: 8.57.0
@@ -993,8 +993,8 @@ packages:
   '@vuepress/shared@2.0.0-rc.13':
     resolution: {integrity: sha512-xtruKVH9QqTLIQxbPbU3iZWthLC8uR5yYUzVA6eL+knjHkpCXOlzqMYnlp4xT0tzQNw+gBHWLKo8zVEccSkqug==}
 
-  '@vuepress/theme-default@2.0.0-rc.34':
-    resolution: {integrity: sha512-55spv2qhoPK2fwoLCgAQ0pOynanLVU/a0sfsMcoGLCgmUvDpdsGveSWt8W7WGRPSaKxeLE0H5IKop/s4zid9zw==}
+  '@vuepress/theme-default@2.0.0-rc.35':
+    resolution: {integrity: sha512-0ASsdEO0N83AnsUknzbnIavO5trfpKmFm8hc/TIGNnPIVUt5Cv7faQpaaJbdymmgDhBYsBS0zbCxr0n2NG+N4w==}
     peerDependencies:
       sass-loader: ^14.0.0
       vuepress: 2.0.0-rc.13
@@ -4038,7 +4038,7 @@ snapshots:
     dependencies:
       '@mdit-vue/types': 2.1.0
 
-  '@vuepress/theme-default@2.0.0-rc.34(typescript@5.4.5)(vuepress@2.0.0-rc.13(@vuepress/bundler-vite@2.0.0-rc.13(@types/node@20.14.2)(sass@1.77.4)(typescript@5.4.5))(typescript@5.4.5)(vue@3.4.27(typescript@5.4.5)))':
+  '@vuepress/theme-default@2.0.0-rc.35(typescript@5.4.5)(vuepress@2.0.0-rc.13(@vuepress/bundler-vite@2.0.0-rc.13(@types/node@20.14.2)(sass@1.77.4)(typescript@5.4.5))(typescript@5.4.5)(vue@3.4.27(typescript@5.4.5)))':
     dependencies:
       '@vuepress/helper': 2.0.0-rc.34(typescript@5.4.5)(vuepress@2.0.0-rc.13(@vuepress/bundler-vite@2.0.0-rc.13(@types/node@20.14.2)(sass@1.77.4)(typescript@5.4.5))(typescript@5.4.5)(vue@3.4.27(typescript@5.4.5)))
       '@vuepress/plugin-active-header-links': 2.0.0-rc.34(typescript@5.4.5)(vuepress@2.0.0-rc.13(@vuepress/bundler-vite@2.0.0-rc.13(@types/node@20.14.2)(sass@1.77.4)(typescript@5.4.5))(typescript@5.4.5)(vue@3.4.27(typescript@5.4.5)))
