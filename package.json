@@ -20,16 +20,15 @@
     "lint:fix": "eslint . --fix"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^2.19.1",
+    "@antfu/eslint-config": "^2.20.0",
     "@eslint/eslintrc": "^3.1.0",
-    "@types/node": "^20.12.13",
-    "@vuepress/bundler-vite": "2.0.0-rc.12",
-    "@vuepress/client": "2.0.0-rc.12",
-    "@vuepress/plugin-catalog": "2.0.0-rc.33",
-    "@vuepress/plugin-copy-code": "2.0.0-rc.33",
-    "@vuepress/plugin-shiki": "2.0.0-rc.33",
-    "@vuepress/theme-default": "2.0.0-rc.33",
-    "@vuepress/utils": "2.0.0-rc.12",
+    "@types/node": "^20.14.2",
+    "@vuepress/bundler-vite": "2.0.0-rc.13",
+    "@vuepress/client": "2.0.0-rc.13",
+    "@vuepress/plugin-catalog": "2.0.0-rc.34",
+    "@vuepress/plugin-copy-code": "2.0.0-rc.34",
+    "@vuepress/plugin-shiki": "2.0.0-rc.34",
+    "@vuepress/theme-default": "2.0.0-rc.34",
     "eslint": "^8.57.0",
     "eslint-plugin-markdownlint": "^0.6.0",
     "eslint-plugin-perfectionist": "^2.10.0",
@@ -39,9 +38,9 @@
     "mermaid": "^10.9.1",
     "simple-git-hooks": "^2.11.1",
     "vue": "^3.4.27",
-    "vuepress": "2.0.0-rc.12",
-    "vuepress-plugin-md-enhance": "2.0.0-rc.47",
-    "vuepress-plugin-search-pro": "2.0.0-rc.47"
+    "vuepress": "2.0.0-rc.13",
+    "vuepress-plugin-md-enhance": "2.0.0-rc.48",
+    "vuepress-plugin-search-pro": "2.0.0-rc.48"
   },
   "simple-git-hooks": {
     "pre-commit": "pnpm lint-staged"
