@@ -34,7 +34,7 @@
     "eslint-plugin-perfectionist": "^2.10.0",
     "github-slugger": "^2.0.0",
     "katex": "^0.16.10",
-    "lint-staged": "^15.2.5",
+    "lint-staged": "^15.2.7",
     "mermaid": "^10.9.1",
     "simple-git-hooks": "^2.11.1",
     "vue": "^3.4.27",
