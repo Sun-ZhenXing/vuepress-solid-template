@@ -31,7 +31,7 @@
     "@vuepress/theme-default": "2.0.0-rc.35",
     "eslint": "^8.57.0",
     "eslint-plugin-markdownlint": "^0.6.0",
-    "eslint-plugin-perfectionist": "^2.10.0",
+    "eslint-plugin-perfectionist": "^2.11.0",
     "github-slugger": "^2.0.0",
     "katex": "^0.16.10",
     "lint-staged": "^15.2.5",
