@@ -22,7 +22,7 @@
   "devDependencies": {
     "@antfu/eslint-config": "^2.20.0",
     "@eslint/eslintrc": "^3.1.0",
-    "@types/node": "^20.14.2",
+    "@types/node": "^20.14.8",
     "@vuepress/bundler-vite": "2.0.0-rc.13",
     "@vuepress/client": "2.0.0-rc.13",
     "@vuepress/plugin-catalog": "2.0.0-rc.34",
