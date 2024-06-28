@@ -62,7 +62,7 @@ export default defineUserConfig({
           if (file.startsWith('@/'))
             return file.replace(/^@\//, CURRENT_PATH)
           if (file.startsWith('/'))
-            return file.replace(/^\//, ROOT_PATH.replace(/(?:|\\|\/)$/, '/'))
+            return file.replace(/^\//, ROOT_PATH.replace(/(?:\\|\/)?$/, '/'))
           return file
         },
       },
