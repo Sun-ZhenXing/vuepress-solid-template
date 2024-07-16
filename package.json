@@ -27,7 +27,7 @@
     "@vuepress/client": "2.0.0-rc.14",
     "@vuepress/plugin-catalog": "2.0.0-rc.37",
     "@vuepress/plugin-copy-code": "2.0.0-rc.37",
-    "@vuepress/plugin-shiki": "2.0.0-rc.37",
+    "@vuepress/plugin-shiki": "2.0.0-rc.38",
     "@vuepress/theme-default": "2.0.0-rc.37",
     "eslint": "^9.7.0",
     "eslint-plugin-markdownlint": "^0.6.0",
