@@ -2,7 +2,7 @@
   "name": "vuepress-solid-template",
   "type": "module",
   "version": "1.0.0",
-  "packageManager": "pnpm@9.4.0",
+  "packageManager": "pnpm@9.5.0",
   "description": "Best Vuepress Template",
   "author": "Alex Sun",
   "license": "MIT",
@@ -20,9 +20,9 @@
     "lint:fix": "eslint . --fix"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^2.22.3",
+    "@antfu/eslint-config": "^2.23.2",
     "@eslint/eslintrc": "^3.1.0",
-    "@types/node": "^20.14.10",
+    "@types/node": "^20.14.11",
     "@vuepress/bundler-vite": "2.0.0-rc.14",
     "@vuepress/client": "2.0.0-rc.14",
     "@vuepress/plugin-catalog": "2.0.0-rc.37",
@@ -37,10 +37,10 @@
     "lint-staged": "^15.2.7",
     "mermaid": "^10.9.1",
     "simple-git-hooks": "^2.11.1",
-    "vue": "^3.4.31",
+    "vue": "^3.4.33",
     "vuepress": "2.0.0-rc.14",
-    "vuepress-plugin-md-enhance": "2.0.0-rc.51",
-    "vuepress-plugin-search-pro": "2.0.0-rc.51"
+    "vuepress-plugin-md-enhance": "2.0.0-rc.52",
+    "vuepress-plugin-search-pro": "2.0.0-rc.52"
   },
   "simple-git-hooks": {
     "pre-commit": "pnpm lint-staged"
