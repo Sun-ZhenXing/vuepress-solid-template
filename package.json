@@ -28,7 +28,7 @@
     "@vuepress/plugin-catalog": "2.0.0-rc.37",
     "@vuepress/plugin-copy-code": "2.0.0-rc.37",
     "@vuepress/plugin-shiki": "2.0.0-rc.37",
-    "@vuepress/theme-default": "2.0.0-rc.37",
+    "@vuepress/theme-default": "2.0.0-rc.40",
     "eslint": "^9.8.0",
     "eslint-plugin-markdownlint": "^0.6.0",
     "github-slugger": "^2.0.0",
