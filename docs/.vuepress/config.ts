@@ -1,9 +1,13 @@
+import process from 'node:process'
 import { viteBundler } from '@vuepress/bundler-vite'
 import { catalogPlugin } from '@vuepress/plugin-catalog'
+import { markdownHintPlugin } from '@vuepress/plugin-markdown-hint'
+import { markdownImagePlugin } from '@vuepress/plugin-markdown-image'
+import { markdownMathPlugin } from '@vuepress/plugin-markdown-math'
+import { markdownTabPlugin } from '@vuepress/plugin-markdown-tab'
 import { shikiPlugin } from '@vuepress/plugin-shiki'
 import { defaultTheme } from '@vuepress/theme-default'
 import { slug as slugify } from 'github-slugger'
-import process from 'node:process'
 import { defineUserConfig } from 'vuepress'
 import { getDirname, path } from 'vuepress/utils'
 import { mdEnhancePlugin } from 'vuepress-plugin-md-enhance'
@@ -51,12 +55,9 @@ export default defineUserConfig({
     mdEnhancePlugin({
       align: true,
       attrs: true,
-      codetabs: true,
       delay: 200,
       footnote: true,
       gfm: true,
-      hint: true,
-      imgLazyload: true,
       include: {
         resolvePath: (file) => {
           if (file.startsWith('@/'))
@@ -65,10 +66,6 @@ export default defineUserConfig({
             return file.replace(/^\//, ROOT_PATH.replace(/(?:\\|\/)?$/, '/'))
           return file
         },
-      },
-      katex: {
-        copy: true,
-        mhchem: true,
       },
       linkify: false,
       mark: true,
@@ -89,12 +86,27 @@ export default defineUserConfig({
       ],
       sub: true,
       sup: true,
-      tabs: true,
       tasklist: true,
       vPre: true,
     }, false),
     searchProPlugin({}),
     catalogPlugin({}),
+    markdownImagePlugin({
+      lazyload: true,
+      figure: true,
+    }),
+    markdownHintPlugin({
+      alert: true,
+    }),
+    markdownTabPlugin({
+      tabs: true,
+      codeTabs: true,
+    }),
+    markdownMathPlugin({
+      type: 'katex',
+      copy: true,
+      mhchem: true,
+    }),
     shikiPlugin({ theme: 'dark-plus' }),
   ],
   theme: defaultTheme({
