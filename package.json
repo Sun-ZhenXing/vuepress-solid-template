@@ -25,7 +25,7 @@
     "@types/node": "^22.7.0",
     "@vuepress/bundler-vite": "2.0.0-rc.15",
     "@vuepress/client": "2.0.0-rc.15",
-    "@vuepress/plugin-catalog": "2.0.0-rc.42",
+    "@vuepress/plugin-catalog": "2.0.0-rc.47",
     "@vuepress/plugin-copy-code": "2.0.0-rc.42",
     "@vuepress/plugin-markdown-hint": "2.0.0-rc.42",
     "@vuepress/plugin-markdown-image": "2.0.0-rc.47",
