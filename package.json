@@ -31,7 +31,7 @@
     "@vuepress/plugin-markdown-image": "2.0.0-rc.47",
     "@vuepress/plugin-markdown-math": "2.0.0-rc.49",
     "@vuepress/plugin-markdown-tab": "2.0.0-rc.47",
-    "@vuepress/plugin-shiki": "2.0.0-rc.42",
+    "@vuepress/plugin-shiki": "2.0.0-rc.47",
     "@vuepress/theme-default": "2.0.0-rc.42",
     "eslint": "^9.11.1",
     "eslint-plugin-markdownlint": "^0.6.0",
