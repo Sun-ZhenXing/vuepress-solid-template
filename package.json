@@ -9,7 +9,6 @@
   "keywords": [],
   "main": "index.js",
   "scripts": {
-    "postinstall": "simple-git-hooks",
     "dev": "vuepress dev docs",
     "build": "vuepress build docs",
     "clean-dev": "vuepress dev docs --clean-cache",

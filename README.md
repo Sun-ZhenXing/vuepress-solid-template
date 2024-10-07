@@ -21,7 +21,7 @@ Features:
 - 📋 Copy code support
 - 📜 Auto catalog generation
 - 🔍 Static search support
-- 🎇 ESLint & Git hooks
+- 🎇 Auto format
 
 ## 1. Start
 
