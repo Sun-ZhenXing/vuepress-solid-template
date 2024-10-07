@@ -10,6 +10,8 @@ $$
 
 *@recommend* All of VuePress2 is ready![^1]
 
+`code` is `code`!
+
 [^1]: footnote!
 
 ## Container

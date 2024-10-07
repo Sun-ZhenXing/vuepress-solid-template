@@ -1,10 +1,8 @@
 import process from 'node:process'
 import { viteBundler } from '@vuepress/bundler-vite'
 import { catalogPlugin } from '@vuepress/plugin-catalog'
-import { markdownHintPlugin } from '@vuepress/plugin-markdown-hint'
 import { markdownImagePlugin } from '@vuepress/plugin-markdown-image'
 import { markdownMathPlugin } from '@vuepress/plugin-markdown-math'
-import { markdownTabPlugin } from '@vuepress/plugin-markdown-tab'
 import { shikiPlugin } from '@vuepress/plugin-shiki'
 import { defaultTheme } from '@vuepress/theme-default'
 import { slug as slugify } from 'github-slugger'
@@ -55,6 +53,7 @@ export default defineUserConfig({
     mdEnhancePlugin({
       align: true,
       attrs: true,
+      component: true,
       delay: 200,
       footnote: true,
       gfm: true,
@@ -95,17 +94,9 @@ export default defineUserConfig({
       lazyload: true,
       figure: true,
     }),
-    markdownHintPlugin({
-      alert: true,
-    }),
-    markdownTabPlugin({
-      tabs: true,
-      codeTabs: true,
-    }),
     markdownMathPlugin({
       type: 'katex',
       copy: true,
-      mhchem: true,
     }),
     shikiPlugin({ theme: 'dark-plus' }),
   ],
@@ -137,6 +128,13 @@ export default defineUserConfig({
     },
     themePlugins: {
       git: isProd,
+      hint: {
+        alert: true,
+      },
+      tab: {
+        tabs: true,
+        codeTabs: true,
+      },
     },
   }),
   title: 'VuePress Solid Template',

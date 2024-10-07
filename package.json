@@ -1,8 +1,8 @@
 {
   "name": "vuepress-solid-template",
   "type": "module",
-  "version": "1.0.0",
-  "packageManager": "pnpm@9.10.0",
+  "version": "0.1.0",
+  "packageManager": "pnpm@9.12.0",
   "description": "Best Vuepress Template",
   "author": "Alex Sun",
   "license": "MIT",
@@ -15,40 +15,24 @@
     "clean-dev": "vuepress dev docs --clean-cache",
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
-    "docs:clean-dev": "vuepress dev docs --clean-cache",
-    "lint": "eslint .",
-    "lint:fix": "eslint . --fix"
+    "docs:clean-dev": "vuepress dev docs --clean-cache"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^3.7.1",
-    "@eslint/eslintrc": "^3.1.0",
-    "@types/node": "^22.7.0",
-    "@vuepress/bundler-vite": "2.0.0-rc.15",
-    "@vuepress/client": "2.0.0-rc.15",
-    "@vuepress/plugin-catalog": "2.0.0-rc.42",
-    "@vuepress/plugin-copy-code": "2.0.0-rc.42",
-    "@vuepress/plugin-markdown-hint": "2.0.0-rc.42",
-    "@vuepress/plugin-markdown-image": "2.0.0-rc.47",
-    "@vuepress/plugin-markdown-math": "2.0.0-rc.49",
-    "@vuepress/plugin-markdown-tab": "2.0.0-rc.47",
-    "@vuepress/plugin-shiki": "2.0.0-rc.42",
-    "@vuepress/theme-default": "2.0.0-rc.42",
-    "eslint": "^9.11.1",
-    "eslint-plugin-markdownlint": "^0.6.0",
+    "@types/node": "^22.7.4",
+    "@vuepress/bundler-vite": "2.0.0-rc.17",
+    "@vuepress/client": "2.0.0-rc.17",
+    "@vuepress/plugin-catalog": "2.0.0-rc.52",
+    "@vuepress/plugin-copy-code": "2.0.0-rc.52",
+    "@vuepress/plugin-markdown-image": "2.0.0-rc.52",
+    "@vuepress/plugin-markdown-math": "2.0.0-rc.52",
+    "@vuepress/plugin-shiki": "2.0.0-rc.52",
+    "@vuepress/theme-default": "2.0.0-rc.52",
     "github-slugger": "^2.0.0",
     "katex": "^0.16.11",
-    "lint-staged": "^15.2.10",
-    "mermaid": "^11.2.1",
-    "simple-git-hooks": "^2.11.1",
-    "vue": "^3.5.8",
-    "vuepress": "2.0.0-rc.15",
-    "vuepress-plugin-md-enhance": "2.0.0-rc.54",
-    "vuepress-plugin-search-pro": "2.0.0-rc.54"
-  },
-  "simple-git-hooks": {
-    "pre-commit": "pnpm lint-staged"
-  },
-  "lint-staged": {
-    "*": "pnpm lint:fix"
+    "mermaid": "^11.3.0",
+    "vue": "^3.5.11",
+    "vuepress": "2.0.0-rc.17",
+    "vuepress-plugin-md-enhance": "2.0.0-rc.57",
+    "vuepress-plugin-search-pro": "2.0.0-rc.57"
   }
 }
