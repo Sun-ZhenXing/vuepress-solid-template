@@ -15,8 +15,8 @@ importers:
         specifier: 2.0.0-rc.17
         version: 2.0.0-rc.17(@types/node@22.7.4)(sass-embedded@1.79.4)(sass@1.79.4)(typescript@5.4.5)(yaml@2.5.1)
       '@vuepress/client':
-        specifier: 2.0.0-rc.17
-        version: 2.0.0-rc.17(typescript@5.4.5)
+        specifier: 2.0.0-rc.18
+        version: 2.0.0-rc.18(typescript@5.4.5)
       '@vuepress/plugin-catalog':
         specifier: 2.0.0-rc.52
         version: 2.0.0-rc.52(typescript@5.4.5)(vuepress@2.0.0-rc.17(@vuepress/bundler-vite@2.0.0-rc.17(@types/node@22.7.4)(sass-embedded@1.79.4)(sass@1.79.4)(typescript@5.4.5)(yaml@2.5.1))(typescript@5.4.5)(vue@3.5.11(typescript@5.4.5)))
@@ -724,6 +724,9 @@ packages:
   '@vuepress/client@2.0.0-rc.17':
     resolution: {integrity: sha512-dnCU+spOgVw1V7vU/Gkj6e7bkfsGbezUuPAQMiWkBdrNTZ2BJctOHhhi+F8OBRR02hZ9JldlToA5vBoVsPKRpw==}
 
+  '@vuepress/client@2.0.0-rc.18':
+    resolution: {integrity: sha512-ImeF10uwZvQt3KyYN+fdyPRCZmzEJ2r4sTxC/39ieVA4BzPpTzrJwBNT3KONYkckaoXnBXIoI8d+DWFfq9B9NQ==}
+
   '@vuepress/core@2.0.0-rc.17':
     resolution: {integrity: sha512-Ux5zAqnSAAnaE4qFgIGkGRMWObyZaAeRk6Pj30tVRCC7zkYIRWXii7sUK6aehPyugQz02TKMvW5FlrJeA40ogw==}
 
@@ -858,6 +861,9 @@ packages:
 
   '@vuepress/shared@2.0.0-rc.17':
     resolution: {integrity: sha512-meBWLJCCHqj+edHY+U2q64Q8AIqqlHzau6T0j95Q58WkWOQdgn8MUCx1/TXXh2mKVyTt4g6Kgci/3fK2Hi97HQ==}
+
+  '@vuepress/shared@2.0.0-rc.18':
+    resolution: {integrity: sha512-um5/ZKGOKgaui5Xo1aRSZ3ko7zVq60k1M8j8ajEOu90LUD1e8glTa7Km9OIBgPcN+yx2OrNwuu8ieEupdNAm4w==}
 
   '@vuepress/theme-default@2.0.0-rc.52':
     resolution: {integrity: sha512-H6NUPqMjd9BbBDXfV97gjepUR0F+g4vush7S85CNck3JoiGobAA3Ceoy7WWg6QbajW/VlTGlrD5ddQNz/e0TyQ==}
@@ -2833,6 +2839,15 @@ snapshots:
     transitivePeerDependencies:
       - typescript
 
+  '@vuepress/client@2.0.0-rc.18(typescript@5.4.5)':
+    dependencies:
+      '@vue/devtools-api': 7.4.6
+      '@vuepress/shared': 2.0.0-rc.18
+      vue: 3.5.11(typescript@5.4.5)
+      vue-router: 4.4.5(vue@3.5.11(typescript@5.4.5))
+    transitivePeerDependencies:
+      - typescript
+
   '@vuepress/core@2.0.0-rc.17(typescript@5.4.5)':
     dependencies:
       '@vuepress/client': 2.0.0-rc.17(typescript@5.4.5)
@@ -3081,6 +3096,10 @@ snapshots:
       - typescript
 
   '@vuepress/shared@2.0.0-rc.17':
+    dependencies:
+      '@mdit-vue/types': 2.1.0
+
+  '@vuepress/shared@2.0.0-rc.18':
     dependencies:
       '@mdit-vue/types': 2.1.0
 
