@@ -17,7 +17,7 @@
     "docs:clean-dev": "vuepress dev docs --clean-cache"
   },
   "devDependencies": {
-    "@types/node": "^22.7.4",
+    "@types/node": "^22.7.5",
     "@vuepress/bundler-vite": "2.0.0-rc.17",
     "@vuepress/client": "2.0.0-rc.17",
     "@vuepress/plugin-catalog": "2.0.0-rc.52",
