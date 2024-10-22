@@ -8,3 +8,9 @@ insert_final_newline = true
 
 [*.md]
 trim_trailing_whitespace = false
+
+[Dockerfile]
+indent_size = 4
+
+[*.dockerfile]
+indent_size = 4

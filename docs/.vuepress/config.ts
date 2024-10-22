@@ -1,4 +1,3 @@
-import process from 'node:process'
 import { viteBundler } from '@vuepress/bundler-vite'
 import { catalogPlugin } from '@vuepress/plugin-catalog'
 import { markdownImagePlugin } from '@vuepress/plugin-markdown-image'
@@ -6,10 +5,11 @@ import { markdownMathPlugin } from '@vuepress/plugin-markdown-math'
 import { shikiPlugin } from '@vuepress/plugin-shiki'
 import { defaultTheme } from '@vuepress/theme-default'
 import { slug as slugify } from 'github-slugger'
+import process from 'node:process'
 import { defineUserConfig } from 'vuepress'
-import { getDirname, path } from 'vuepress/utils'
 import { mdEnhancePlugin } from 'vuepress-plugin-md-enhance'
 import { searchProPlugin } from 'vuepress-plugin-search-pro'
+import { getDirname, path } from 'vuepress/utils'
 
 const __dirname = getDirname(import.meta.url)
 const isProd = process.env.NODE_ENV === 'production'
@@ -30,6 +30,11 @@ export default defineUserConfig({
         include: [
           'mermaid',
         ],
+      },
+      css: {
+        preprocessorOptions: {
+          scss: { api: 'modern-compiler' },
+        },
       },
     },
   }),
