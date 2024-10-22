@@ -45,10 +45,10 @@ importers:
         specifier: ^11.3.0
         version: 11.3.0
       sass-embedded:
-        specifier: ^1.80.3
+        specifier: ^1.79.4
         version: 1.80.3
       vue:
-        specifier: ^3.5.12
+        specifier: ^3.5.11
         version: 3.5.12(typescript@5.4.5)
       vuepress:
         specifier: 2.0.0-rc.18
