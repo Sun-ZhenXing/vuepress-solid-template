@@ -23,7 +23,7 @@
     "@vuepress/plugin-catalog": "2.0.0-rc.56",
     "@vuepress/plugin-copy-code": "2.0.0-rc.56",
     "@vuepress/plugin-markdown-image": "2.0.0-rc.56",
-    "@vuepress/plugin-markdown-math": "2.0.0-rc.56",
+    "@vuepress/plugin-markdown-math": "2.0.0-rc.61",
     "@vuepress/plugin-shiki": "2.0.0-rc.56",
     "@vuepress/theme-default": "2.0.0-rc.56",
     "github-slugger": "^2.0.0",
