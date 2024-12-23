@@ -1,14 +1,16 @@
 import { viteBundler } from '@vuepress/bundler-vite'
 import { catalogPlugin } from '@vuepress/plugin-catalog'
+import { markdownExtPlugin } from '@vuepress/plugin-markdown-ext'
 import { markdownImagePlugin } from '@vuepress/plugin-markdown-image'
 import { markdownMathPlugin } from '@vuepress/plugin-markdown-math'
+import { markdownStylizePlugin } from '@vuepress/plugin-markdown-stylize'
 import { shikiPlugin } from '@vuepress/plugin-shiki'
+import { slimsearchPlugin } from '@vuepress/plugin-slimsearch'
 import { defaultTheme } from '@vuepress/theme-default'
 import { slug as slugify } from 'github-slugger'
 import process from 'node:process'
 import { defineUserConfig } from 'vuepress'
 import { mdEnhancePlugin } from 'vuepress-plugin-md-enhance'
-import { searchProPlugin } from 'vuepress-plugin-search-pro'
 import { getDirname, path } from 'vuepress/utils'
 
 const __dirname = getDirname(import.meta.url)
@@ -56,25 +58,28 @@ export default defineUserConfig({
   },
   plugins: [
     mdEnhancePlugin({
-      align: true,
-      attrs: true,
-      component: true,
+      echarts: true,
+      flowchart: true,
+      markmap: true,
+      mermaid: true,
+      plantuml: true,
+      demo: true,
       delay: 200,
+    }, false),
+    slimsearchPlugin({}),
+    markdownExtPlugin({
+      breaks: false,
+      component: true,
       footnote: true,
       gfm: true,
-      include: {
-        resolvePath: (file) => {
-          if (file.startsWith('@/'))
-            return file.replace(/^@\//, CURRENT_PATH)
-          if (file.startsWith('/'))
-            return file.replace(/^\//, ROOT_PATH.replace(/(?:\\|\/)?$/, '/'))
-          return file
-        },
-      },
-      linkify: false,
-      mark: true,
-      mermaid: true,
-      stylize: [
+      linkify: true,
+      tasklist: true,
+      vPre: true,
+    }),
+    markdownStylizePlugin({
+      align: true,
+      attrs: true,
+      custom: [
         {
           matcher: '@recommend',
           replacer: ({ tag }) => {
@@ -88,12 +93,11 @@ export default defineUserConfig({
           },
         },
       ],
+      mark: true,
+      spoiler: false,
       sub: true,
       sup: true,
-      tasklist: true,
-      vPre: true,
-    }, false),
-    searchProPlugin({}),
+    }),
     catalogPlugin({}),
     markdownImagePlugin({
       lazyload: true,
