@@ -32,7 +32,7 @@
     "echarts": "^5.5.1",
     "flowchart.ts": "^3.0.1",
     "github-slugger": "^2.0.0",
-    "katex": "^0.16.18",
+    "katex": "^0.16.19",
     "markmap-lib": "^0.17.0",
     "markmap-toolbar": "^0.17.0",
     "markmap-view": "^0.17.0",
