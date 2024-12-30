@@ -25,7 +25,7 @@
     "@vuepress/plugin-markdown-ext": "2.0.0-rc.66",
     "@vuepress/plugin-markdown-image": "2.0.0-rc.66",
     "@vuepress/plugin-markdown-math": "2.0.0-rc.66",
-    "@vuepress/plugin-markdown-stylize": "2.0.0-rc.66",
+    "@vuepress/plugin-markdown-stylize": "2.0.0-rc.68",
     "@vuepress/plugin-shiki": "2.0.0-rc.66",
     "@vuepress/plugin-slimsearch": "2.0.0-rc.67",
     "@vuepress/theme-default": "2.0.0-rc.66",
