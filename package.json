@@ -22,7 +22,7 @@
     "@vuepress/client": "2.0.0-rc.19",
     "@vuepress/plugin-catalog": "2.0.0-rc.66",
     "@vuepress/plugin-copy-code": "2.0.0-rc.66",
-    "@vuepress/plugin-markdown-ext": "2.0.0-rc.66",
+    "@vuepress/plugin-markdown-ext": "2.0.0-rc.68",
     "@vuepress/plugin-markdown-image": "2.0.0-rc.66",
     "@vuepress/plugin-markdown-math": "2.0.0-rc.66",
     "@vuepress/plugin-markdown-stylize": "2.0.0-rc.66",
