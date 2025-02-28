@@ -44,7 +44,7 @@ npm i -g pnpm
 or use `corepack`:
 
 ```bash
-corepack prepare pnpm@latest --activate
+corepack install -g pnpm@latest
 ```
 
 :::

@@ -64,7 +64,6 @@ export default defineUserConfig({
       mermaid: true,
       plantuml: true,
       demo: true,
-      delay: 200,
     }, false),
     slimsearchPlugin({}),
     markdownExtPlugin({

@@ -2,7 +2,7 @@
   "name": "vuepress-solid-template",
   "type": "module",
   "version": "0.1.0",
-  "packageManager": "pnpm@9.15.1",
+  "packageManager": "pnpm@10.5.2",
   "description": "Best Vuepress Template",
   "author": "Alex Sun",
   "license": "MIT",
@@ -17,29 +17,34 @@
     "docs:clean-dev": "vuepress dev docs --clean-cache"
   },
   "devDependencies": {
-    "@types/node": "^22.10.2",
-    "@vuepress/bundler-vite": "2.0.0-rc.19",
-    "@vuepress/client": "2.0.0-rc.19",
-    "@vuepress/plugin-catalog": "2.0.0-rc.66",
-    "@vuepress/plugin-copy-code": "2.0.0-rc.66",
-    "@vuepress/plugin-markdown-ext": "2.0.0-rc.66",
-    "@vuepress/plugin-markdown-image": "2.0.0-rc.66",
-    "@vuepress/plugin-markdown-math": "2.0.0-rc.66",
-    "@vuepress/plugin-markdown-stylize": "2.0.0-rc.66",
-    "@vuepress/plugin-shiki": "2.0.0-rc.66",
-    "@vuepress/plugin-slimsearch": "2.0.0-rc.67",
-    "@vuepress/theme-default": "2.0.0-rc.66",
-    "echarts": "^5.5.1",
+    "@types/node": "^22.13.5",
+    "@vuepress/bundler-vite": "2.0.0-rc.20",
+    "@vuepress/client": "2.0.0-rc.20",
+    "@vuepress/plugin-catalog": "2.0.0-rc.80",
+    "@vuepress/plugin-copy-code": "2.0.0-rc.80",
+    "@vuepress/plugin-markdown-ext": "2.0.0-rc.80",
+    "@vuepress/plugin-markdown-image": "2.0.0-rc.80",
+    "@vuepress/plugin-markdown-math": "2.0.0-rc.80",
+    "@vuepress/plugin-markdown-stylize": "2.0.0-rc.80",
+    "@vuepress/plugin-shiki": "2.0.0-rc.80",
+    "@vuepress/plugin-slimsearch": "2.0.0-rc.80",
+    "@vuepress/theme-default": "2.0.0-rc.80",
+    "echarts": "^5.6.0",
     "flowchart.ts": "^3.0.1",
     "github-slugger": "^2.0.0",
-    "katex": "^0.16.18",
-    "markmap-lib": "^0.17.0",
-    "markmap-toolbar": "^0.17.0",
-    "markmap-view": "^0.17.0",
+    "katex": "^0.16.21",
+    "markmap-lib": "^0.18.11",
+    "markmap-toolbar": "^0.18.10",
+    "markmap-view": "^0.18.10",
     "mermaid": "^11.4.1",
-    "sass-embedded": "^1.83.0",
+    "sass-embedded": "^1.85.1",
     "vue": "^3.5.13",
-    "vuepress": "2.0.0-rc.19",
-    "vuepress-plugin-md-enhance": "2.0.0-rc.64"
+    "vuepress": "2.0.0-rc.20",
+    "vuepress-plugin-md-enhance": "2.0.0-rc.72"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild"
+    ]
   }
 }
