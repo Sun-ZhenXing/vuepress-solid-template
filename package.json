@@ -28,7 +28,7 @@
     "@vuepress/plugin-markdown-stylize": "2.0.0-rc.80",
     "@vuepress/plugin-shiki": "2.0.0-rc.80",
     "@vuepress/plugin-slimsearch": "2.0.0-rc.80",
-    "@vuepress/theme-default": "2.0.0-rc.80",
+    "@vuepress/theme-default": "2.0.0-rc.82",
     "echarts": "^5.6.0",
     "flowchart.ts": "^3.0.1",
     "github-slugger": "^2.0.0",
