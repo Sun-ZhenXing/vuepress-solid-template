@@ -21,7 +21,7 @@
     "@vuepress/bundler-vite": "2.0.0-rc.20",
     "@vuepress/client": "2.0.0-rc.20",
     "@vuepress/plugin-catalog": "2.0.0-rc.80",
-    "@vuepress/plugin-copy-code": "2.0.0-rc.80",
+    "@vuepress/plugin-copy-code": "2.0.0-rc.86",
     "@vuepress/plugin-markdown-ext": "2.0.0-rc.80",
     "@vuepress/plugin-markdown-image": "2.0.0-rc.80",
     "@vuepress/plugin-markdown-math": "2.0.0-rc.80",
