@@ -33,7 +33,7 @@
     "flowchart.ts": "^3.0.1",
     "github-slugger": "^2.0.0",
     "katex": "^0.16.21",
-    "markmap-lib": "^0.18.11",
+    "markmap-lib": "^0.18.12",
     "markmap-toolbar": "^0.18.10",
     "markmap-view": "^0.18.10",
     "mermaid": "^11.4.1",
