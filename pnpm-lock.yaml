@@ -31,7 +31,7 @@ importers:
         version: 2.0.0-rc.80(markdown-it@14.1.0)(vuepress@2.0.0-rc.20(@vuepress/bundler-vite@2.0.0-rc.20(@types/node@24.3.1)(sass-embedded@1.85.1)(yaml@2.7.0))(vue@3.5.13))
       '@vuepress/plugin-markdown-math':
         specifier: 2.0.0-rc.80
-        version: 2.0.0-rc.80(katex@0.16.21)(markdown-it@14.1.0)(vuepress@2.0.0-rc.20(@vuepress/bundler-vite@2.0.0-rc.20(@types/node@24.3.1)(sass-embedded@1.85.1)(yaml@2.7.0))(vue@3.5.13))
+        version: 2.0.0-rc.80(katex@0.16.22)(markdown-it@14.1.0)(vuepress@2.0.0-rc.20(@vuepress/bundler-vite@2.0.0-rc.20(@types/node@24.3.1)(sass-embedded@1.85.1)(yaml@2.7.0))(vue@3.5.13))
       '@vuepress/plugin-markdown-stylize':
         specifier: 2.0.0-rc.80
         version: 2.0.0-rc.80(markdown-it@14.1.0)(vuepress@2.0.0-rc.20(@vuepress/bundler-vite@2.0.0-rc.20(@types/node@24.3.1)(sass-embedded@1.85.1)(yaml@2.7.0))(vue@3.5.13))
@@ -54,8 +54,8 @@ importers:
         specifier: ^2.0.0
         version: 2.0.0
       katex:
-        specifier: ^0.16.21
-        version: 0.16.21
+        specifier: ^0.16.22
+        version: 0.16.22
       markmap-lib:
         specifier: ^0.18.11
         version: 0.18.11(markmap-common@0.18.0)
@@ -1706,8 +1706,8 @@ packages:
   jsonfile@6.1.0:
     resolution: {integrity: sha512-5dgndWOriYSm5cnYaJNhalLNDKOqFwyDB/rr1E9ZsGciGvKPs8R2xYGCacuf3z6K1YKDz182fd+fY3cn3pMqXQ==}
 
-  katex@0.16.21:
-    resolution: {integrity: sha512-XvqR7FgOHtWupfMiigNzmh+MgUVmDGU2kXZm899ZkPfcuoPuFxyHmXsgATDpFZDAXCI8tvinaVcDo8PIIJSo4A==}
+  katex@0.16.22:
+    resolution: {integrity: sha512-XCHRdUw4lf3SKBaJe4EvgqIuWwkPSo9XoeO8GjQW94Bp7TWv9hNhzZjZ+OH9yf1UmLygb7DIT5GSFQiyt16zYg==}
     hasBin: true
 
   khroma@2.1.0:
@@ -2778,13 +2778,13 @@ snapshots:
     optionalDependencies:
       markdown-it: 14.1.0
 
-  '@mdit/plugin-katex-slim@0.16.7(katex@0.16.21)(markdown-it@14.1.0)':
+  '@mdit/plugin-katex-slim@0.16.7(katex@0.16.22)(markdown-it@14.1.0)':
     dependencies:
       '@mdit/helper': 0.16.0(markdown-it@14.1.0)
       '@mdit/plugin-tex': 0.16.0(markdown-it@14.1.0)
       '@types/markdown-it': 14.1.2
     optionalDependencies:
-      katex: 0.16.21
+      katex: 0.16.22
       markdown-it: 14.1.0
 
   '@mdit/plugin-mark@0.16.0(markdown-it@14.1.0)':
@@ -3166,7 +3166,7 @@ snapshots:
 
   '@vscode/markdown-it-katex@1.1.1':
     dependencies:
-      katex: 0.16.21
+      katex: 0.16.22
 
   '@vue/compiler-core@3.5.13':
     dependencies:
@@ -3501,16 +3501,16 @@ snapshots:
       - markdown-it
       - typescript
 
-  '@vuepress/plugin-markdown-math@2.0.0-rc.80(katex@0.16.21)(markdown-it@14.1.0)(vuepress@2.0.0-rc.20(@vuepress/bundler-vite@2.0.0-rc.20(@types/node@24.3.1)(sass-embedded@1.85.1)(yaml@2.7.0))(vue@3.5.13))':
+  '@vuepress/plugin-markdown-math@2.0.0-rc.80(katex@0.16.22)(markdown-it@14.1.0)(vuepress@2.0.0-rc.20(@vuepress/bundler-vite@2.0.0-rc.20(@types/node@24.3.1)(sass-embedded@1.85.1)(yaml@2.7.0))(vue@3.5.13))':
     dependencies:
-      '@mdit/plugin-katex-slim': 0.16.7(katex@0.16.21)(markdown-it@14.1.0)
+      '@mdit/plugin-katex-slim': 0.16.7(katex@0.16.22)(markdown-it@14.1.0)
       '@mdit/plugin-mathjax-slim': 0.16.0(markdown-it@14.1.0)
       '@types/markdown-it': 14.1.2
       '@vuepress/helper': 2.0.0-rc.80(vuepress@2.0.0-rc.20(@vuepress/bundler-vite@2.0.0-rc.20(@types/node@24.3.1)(sass-embedded@1.85.1)(yaml@2.7.0))(vue@3.5.13))
       vue: 3.5.13
       vuepress: 2.0.0-rc.20(@vuepress/bundler-vite@2.0.0-rc.20(@types/node@24.3.1)(sass-embedded@1.85.1)(yaml@2.7.0))(vue@3.5.13)
     optionalDependencies:
-      katex: 0.16.21
+      katex: 0.16.22
     transitivePeerDependencies:
       - markdown-it
       - typescript
@@ -4353,7 +4353,7 @@ snapshots:
     optionalDependencies:
       graceful-fs: 4.2.11
 
-  katex@0.16.21:
+  katex@0.16.22:
     dependencies:
       commander: 8.3.0
 
@@ -4441,7 +4441,7 @@ snapshots:
       '@babel/runtime': 7.26.9
       '@vscode/markdown-it-katex': 1.1.1
       highlight.js: 11.11.1
-      katex: 0.16.21
+      katex: 0.16.22
       markdown-it: 14.1.0
       markdown-it-ins: 4.0.0
       markdown-it-mark: 4.0.0
@@ -4497,7 +4497,7 @@ snapshots:
       dagre-d3-es: 7.0.11
       dayjs: 1.11.13
       dompurify: 3.2.4
-      katex: 0.16.21
+      katex: 0.16.22
       khroma: 2.1.0
       lodash-es: 4.17.21
       marked: 13.0.3
