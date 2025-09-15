@@ -60,8 +60,8 @@ importers:
         specifier: ^0.18.11
         version: 0.18.11(markmap-common@0.18.0)
       markmap-toolbar:
-        specifier: ^0.18.10
-        version: 0.18.10(markmap-common@0.18.0)
+        specifier: ^0.18.12
+        version: 0.18.12(markmap-common@0.18.0)
       markmap-view:
         specifier: ^0.18.10
         version: 0.18.10(markmap-common@0.18.0)
@@ -79,7 +79,7 @@ importers:
         version: 2.0.0-rc.20(@vuepress/bundler-vite@2.0.0-rc.20(@types/node@24.3.1)(sass-embedded@1.85.1)(yaml@2.7.0))(vue@3.5.13)
       vuepress-plugin-md-enhance:
         specifier: 2.0.0-rc.72
-        version: 2.0.0-rc.72(echarts@5.6.0)(flowchart.ts@3.0.1)(markdown-it@14.1.0)(markmap-lib@0.18.11(markmap-common@0.18.0))(markmap-toolbar@0.18.10(markmap-common@0.18.0))(markmap-view@0.18.10(markmap-common@0.18.0))(mermaid@11.4.1)(sass-embedded@1.85.1)(vuepress@2.0.0-rc.20(@vuepress/bundler-vite@2.0.0-rc.20(@types/node@24.3.1)(sass-embedded@1.85.1)(yaml@2.7.0))(vue@3.5.13))
+        version: 2.0.0-rc.72(echarts@5.6.0)(flowchart.ts@3.0.1)(markdown-it@14.1.0)(markmap-lib@0.18.11(markmap-common@0.18.0))(markmap-toolbar@0.18.12(markmap-common@0.18.0))(markmap-view@0.18.10(markmap-common@0.18.0))(mermaid@11.4.1)(sass-embedded@1.85.1)(vuepress@2.0.0-rc.20(@vuepress/bundler-vite@2.0.0-rc.20(@types/node@24.3.1)(sass-embedded@1.85.1)(yaml@2.7.0))(vue@3.5.13))
 
 packages:
 
@@ -1773,8 +1773,8 @@ packages:
     peerDependencies:
       markmap-common: '*'
 
-  markmap-toolbar@0.18.10:
-    resolution: {integrity: sha512-1/ju0NfI0iUGYYTu1FZPdrNcGZGt4oWMNqhF8CJhImvxyM6DnT/RE1zFtTknNLqo077Aif6wZ460IDqzFKrghw==}
+  markmap-toolbar@0.18.12:
+    resolution: {integrity: sha512-+MQ/95ywl/ZLhVKb0tKjRa3p/AuUSYsuJRs1MPHmkxcxBaumXgzLNHUUnLjKmsbNxeZUSQGe3QJaFyRQYcHZJg==}
     peerDependencies:
       markmap-common: '*'
 
@@ -2624,7 +2624,7 @@ snapshots:
 
   '@gera2ld/jsx-dom@2.2.2':
     dependencies:
-      '@babel/runtime': 7.26.9
+      '@babel/runtime': 7.28.4
 
   '@iconify/types@2.0.0': {}
 
@@ -4405,9 +4405,9 @@ snapshots:
       prismjs: 1.29.0
       yaml: 2.7.0
 
-  markmap-toolbar@0.18.10(markmap-common@0.18.0):
+  markmap-toolbar@0.18.12(markmap-common@0.18.0):
     dependencies:
-      '@babel/runtime': 7.26.9
+      '@babel/runtime': 7.28.4
       '@gera2ld/jsx-dom': 2.2.2
       markmap-common: 0.18.0
 
@@ -4989,7 +4989,7 @@ snapshots:
       '@vue/server-renderer': 3.5.13(vue@3.5.13)
       '@vue/shared': 3.5.13
 
-  vuepress-plugin-md-enhance@2.0.0-rc.72(echarts@5.6.0)(flowchart.ts@3.0.1)(markdown-it@14.1.0)(markmap-lib@0.18.11(markmap-common@0.18.0))(markmap-toolbar@0.18.10(markmap-common@0.18.0))(markmap-view@0.18.10(markmap-common@0.18.0))(mermaid@11.4.1)(sass-embedded@1.85.1)(vuepress@2.0.0-rc.20(@vuepress/bundler-vite@2.0.0-rc.20(@types/node@24.3.1)(sass-embedded@1.85.1)(yaml@2.7.0))(vue@3.5.13)):
+  vuepress-plugin-md-enhance@2.0.0-rc.72(echarts@5.6.0)(flowchart.ts@3.0.1)(markdown-it@14.1.0)(markmap-lib@0.18.11(markmap-common@0.18.0))(markmap-toolbar@0.18.12(markmap-common@0.18.0))(markmap-view@0.18.10(markmap-common@0.18.0))(mermaid@11.4.1)(sass-embedded@1.85.1)(vuepress@2.0.0-rc.20(@vuepress/bundler-vite@2.0.0-rc.20(@types/node@24.3.1)(sass-embedded@1.85.1)(yaml@2.7.0))(vue@3.5.13)):
     dependencies:
       '@mdit/plugin-container': 0.16.0(markdown-it@14.1.0)
       '@mdit/plugin-demo': 0.16.0(markdown-it@14.1.0)
@@ -5008,7 +5008,7 @@ snapshots:
       echarts: 5.6.0
       flowchart.ts: 3.0.1
       markmap-lib: 0.18.11(markmap-common@0.18.0)
-      markmap-toolbar: 0.18.10(markmap-common@0.18.0)
+      markmap-toolbar: 0.18.12(markmap-common@0.18.0)
       markmap-view: 0.18.10(markmap-common@0.18.0)
       mermaid: 11.4.1
       sass-embedded: 1.85.1
